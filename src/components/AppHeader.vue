@@ -3,7 +3,7 @@ export default {};
 </script>
 
 <template>
-  <h1>Header</h1>
+  <h1>Ciao gruppo 9</h1>
 </template>
 
 <style lang="scss" scoped></style>
