@@ -33,7 +33,7 @@ export default {};
   </div>
 
   <!-- Card con cibo -->
-  <div class="container">
+  <div class="container ms-container-card">
     <div class="row justify-content-center mt-4">
         <div class="col-12">
             <hr>
@@ -74,6 +74,8 @@ export default {};
 </template>
 
 <style scoped lang="scss">
+
+
 .ms-home-bg {
   background-image: url("../assets/img/bg-1.jpg");
   background-size: cover;
@@ -87,6 +89,7 @@ export default {};
   .ms-btn-home {
     background-color: #fc7523;
     border: none;
+    margin-bottom: -50px;
   }
 
   .ms-banner-bg {
@@ -104,4 +107,13 @@ a {
 .ms-banner-text:hover {
   color: #fc7523;
 }
+
+/* CARD CON CIBO */
+.ms-container-card{
+    margin: auto;
+    background-color: #FFFF;
+    margin-top: -100px;
+
+}
+
 </style>
