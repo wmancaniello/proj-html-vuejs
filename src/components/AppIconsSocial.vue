@@ -28,6 +28,9 @@ export default {};
 
 <style scoped>
 /* ICONE SOCIAL */
+a {
+  color: inherit;
+}
 
 .wrapper {
   display: inline-flex;
