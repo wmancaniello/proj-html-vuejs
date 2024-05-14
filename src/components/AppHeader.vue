@@ -24,7 +24,7 @@ export default {
 <template>
     <header>
         <ul>
-            <li v-for="item in menu"> 
+            <li v-for="item in menu" :key="item"> 
                 <router-link :to="{name: item.routeName}" >
                     {{ item.title }}
                 </router-link>
