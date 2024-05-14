@@ -158,7 +158,6 @@
   .nav-icons ul li {
     list-style: none;
     margin-right: 20px;
-    /* Spazio tra gli elementi */
   }
 
   .nav-icons router-link {
@@ -188,17 +187,18 @@
     height: 3px;
     width: 0;
     left: 0;
-    bottom: -10px;
+    bottom: -10px; 
     transition: 0.3s;
   }
 
   .nav-icons a:hover {
-    color: #000;
+    color: orange;
   }
 
   .nav-icons a:hover:after {
     width: 100%;
   }
+
 
   /* -----------------buttons--------------------- */
 </style>
