@@ -39,7 +39,7 @@ export default {
       <header class="d-flex flex-wrap justify-content-between align-items-start py-3 mb-4">
         <!-- ------------------LINKS DOWNLOAD APP, ADVERTISE------------------ -->
         <div class="d-flex align-items-start w-30">
-          <a href="https://1.envato.market/qjLX5" class="nav-link orange-hover">Download App <span class="badge bg-warning text-dark">iOS</span></a>
+          <a href="https://1.envato.market/qjLX5" class="nav-link orange-hover">Download App <span class="badge bg-warning text-dark">iOS</span> </a>
           <a href="https://1.envato.market/qjLX5" class="nav-link ms-3 orange-hover">Advertise with us</a>
         </div>
         <!-- ------------------LINKS DOWNLOAD APP, ADVERTISE------------------ -->
@@ -48,19 +48,20 @@ export default {
         <!-- ------------------Logo------------------ -->
         <div class="d-flex align-items-center">
           <a href="/" class="d-flex align-items-center mx-auto mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <img src="https://avada.website/food/wp-content/uploads/sites/118/2021/04/avada-food-logo.svg" alt="Avada Food" width="40" height="32" class="logo">
-          </a>
+            <img src="https://avada.website/food/wp-content/uploads/sites/118/2021/04/avada-food-logo.svg" alt="Avada Food" width="40" height="32" class="logo"></a>
         </div>
         <!-- ------------------Logo------------------ -->
 
         
         <!-- ------------------Social media links------------------ -->
-        <div class="d-flex align-items-center w-30">
-          <span class="fs-4">Simple header</span>
-          <a href="https://www.facebook.com/ThemeFusion-101565403356430/" class="nav-link"><i class="bi bi-facebook"></i></a>
-          <a href="https://www.instagram.com/themefusion/" class="nav-link"><i class="bi bi-instagram"></i></a>
-          <a href="https://twitter.com/theme_fusion" class="nav-link"><i class="bi bi-twitter"></i></a>
-          <a href="https://www.youtube.com/@AvadaVideos" class="nav-link"><i class="bi bi-youtube"></i></a>
+        <div class="d-flex justify-content-end align-items-start w-30 my-wrapper">
+            <div class="my-icon my-facebook">
+                <a href="https://www.facebook.com/ThemeFusion-101565403356430/" class="nav-link px-3"><i class="fa-brands fa-facebook-f"></i></a>
+                <div class="my-tooltip">Facebook</div>
+            </div>
+          <a href="https://www.instagram.com/themefusion/" class="nav-link px-3"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/theme_fusion" class="nav-link px-3"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.youtube.com/@AvadaVideos" class="nav-link px-3"><i class="fa-brands fa-youtube"></i></a>
         </div>
         <!-- ------------------Social media links------------------ -->
 
@@ -131,7 +132,25 @@ export default {
 .orange-hover:hover {
   color: #ff6600; /* Colore arancione */
 }
+
+/* ------------------ICONS TEXTBOX-------------------------------- */
+
+.my-wrapper .my-icon a{
+    height: 60px;
+    width: 60px;
+    display: block;
+}
+
+.my-wrapper .my-icon .my-tooltip{
+    background-color: grey;
+    /* font-size: 20px; */
+    /* padding: 8px 18px; */
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+
 </style>
+
+
   
 
 
