@@ -4,15 +4,23 @@ export default {
     return {
       menu: [
         {
-          title: "Home",
-          routeName: "home",
+          title: "Recipes",
+          routeName: "recipes",
+        },
+        {
+          title: "Places",
+          routeName: "places",
+        },
+        {
+          title: "Blog",
+          routeName: "blog",
         },
         {
           title: "About",
           routeName: "about",
         },
         {
-          title: "Contacts",
+          title: "Contact",
           routeName: "contacts",
         },
       ],
