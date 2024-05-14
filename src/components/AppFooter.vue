@@ -43,11 +43,12 @@ export default {
     <hr />
     <!-- /Spazio immagini -->
 
-    <!-- Footer Down -->
-    <!-- Section 1 -->
+    <!-- FOOTER DOWN -->
+
+    <!-- Logo e Social -->
     <div class="row justify-content-around text-center text-md-start">
       <div class="col-md-3 text-center">
-        <div class="">
+        <div class="mb-4">
           <img
             src="https://avada.website/food/wp-content/uploads/sites/118/2019/08/avada-food-logo-mob-2x.png"
             alt="logo avada food"
@@ -59,7 +60,7 @@ export default {
         <AppIconsSocial />
         <!-- /Icone Social -->
       </div>
-      <!-- /Section1 -->
+      <!-- /Logo e Social -->
 
       <!-- Section 2 -->
       <div class="col-md-3">
@@ -105,7 +106,24 @@ export default {
 
       <!-- Section 4  -->
       <div class="col-md-3">
-        <h3>Spazio per Get our App</h3>
+        <h5 class="text-uppercase mb-4 font-weight-bold">GET OUR APP</h5>
+        <div class="d-flex flex-column gap-3">
+          <!-- GooglePlay -->
+          <a href="#">
+            <img
+              src="https://avada.website/food/wp-content/uploads/sites/118/2019/09/download-android.png"
+              alt="GooglePlay"
+              class="ms_logo"
+          /></a>
+          <!-- AppStore -->
+          <a href="#">
+            <img
+              src="https://avada.website/food/wp-content/uploads/sites/118/2019/09/download-app-store.png"
+              alt="AppStore"
+              class="ms_logo"
+            />
+          </a>
+        </div>
       </div>
       <!-- /Section 4 -->
     </div>
