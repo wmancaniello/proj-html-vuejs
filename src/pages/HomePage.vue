@@ -73,7 +73,7 @@ export default {};
 </div>
 </template>
 
-<style>
+<style scoped lang="scss">
 .ms-home-bg {
   background-image: url("../assets/img/bg-1.jpg");
   background-size: cover;
