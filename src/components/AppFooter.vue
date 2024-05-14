@@ -103,7 +103,7 @@ export default {
       <!-- /Section 1 -->
 
       <!-- Section 2 -->
-      <div class="col-md-3">
+      <div class="col-md-3 nav-icons">
         <ul class="list-unstyled">
           <li v-for="item in menu" :key="item" class="mb-3">
             <router-link :to="{ name: item.routeName }" class="ms_router-link">
@@ -111,6 +111,14 @@ export default {
             </router-link>
           </li>
         </ul>
+
+        <!-- <ul class="list-unstyled">
+          <li v-for="item in menu" :key="item" class="mb-3">
+            <router-link :to="{ name: item.routeName }" class="ms_router-link">
+              {{ item.title }}
+            </router-link>
+          </li>
+        </ul> -->
       </div>
       <!-- /Section 2 -->
 
@@ -257,5 +265,61 @@ export default {
 
 .ms_content p {
   color: #fff;
+}
+
+// HOVER MENU
+
+.nav-icons ul {
+  padding-left: 0;
+}
+
+.nav-icons ul li {
+  list-style: none;
+  margin-right: 20px;
+  /* Spazio tra gli elementi */
+}
+
+.nav-icons router-link {
+  height: 100vh;
+  width: 70vw;
+  min-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.nav-icons a {
+  position: relative;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+
+.nav-icons a:after {
+  content: "";
+  position: absolute;
+  background-color: orange;
+  height: 100%;
+  width: 3px;
+  right: 50%;
+  top: 0;
+  transform: translateX(50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 0.3s, opacity 0.3s, visibility 0.3s;
+}
+
+.nav-icons a:hover {
+  color: orange;
+}
+
+.nav-icons a:hover:after {
+  transform: translateX(100px);
+  opacity: 1;
+  visibility: visible;
 }
 </style>
