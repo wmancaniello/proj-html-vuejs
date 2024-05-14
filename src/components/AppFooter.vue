@@ -30,7 +30,9 @@ export default {
 </script>
 
 <template>
-  <footer>
+  <footer></footer>
+
+  <!-- <footer>
     <h1>Footer</h1>
     <ul>
       <li v-for="item in menu" :key="item">
@@ -39,7 +41,7 @@ export default {
         </router-link>
       </li>
     </ul>
-  </footer>
+  </footer> -->
 </template>
 
 <style lang="scss" scoped></style>
