@@ -37,9 +37,38 @@ export default {
 <template>
   <div class="container-fluid text-black p-3 ms_footer">
     <!-- Spazio immagini -->
-    <div class="mt-3 ms_image-test">
-      <h3 class="text-center fw-bold">Spazio per immagini</h3>
+
+    <div class="d-flex flex-wrap">
+      <div class="col-12 col-md-3">
+        <img
+          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/Mixed-fruits-1200x790.jpg"
+          alt=""
+          class="img-fluid"
+        />
+      </div>
+      <div class="col-12 col-md-3">
+        <img
+          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/r-rachel-park-366508-unsplash-min.jpg"
+          alt=""
+          class="img-fluid"
+        />
+      </div>
+      <div class="col-12 col-md-3">
+        <img
+          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/r-michelle-tsang-500721-unsplash-min.jpg"
+          alt=""
+          class="img-fluid"
+        />
+      </div>
+      <div class="col-12 col-md-3">
+        <img
+          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/r-michelle-tsang-500721-unsplash-min.jpg"
+          alt=""
+          class="img-fluid"
+        />
+      </div>
     </div>
+
     <hr />
     <!-- /Spazio immagini -->
 
@@ -108,7 +137,9 @@ export default {
 
       <!-- Section 4  -->
       <div class="col-md-3">
-        <h5 class="text-uppercase mb-4 font-weight-bold">GET OUR APP</h5>
+        <h6 class="text-uppercase mb-4 font-weight-bold ms_text-orange">
+          GET OUR APP
+        </h6>
         <div class="d-flex flex-column gap-3">
           <!-- GooglePlay -->
           <a href="#">
@@ -133,9 +164,7 @@ export default {
   </div>
 
   <!-- Copyright -->
-  <div
-    class="text-center py-4 bg_lightgrey ms_copy"
-  >
+  <div class="text-center py-4 bg_lightgrey ms_copy">
     © Copyright 2012 - 2019 |
     <a href="#">Avada Website Builder</a>
     by
@@ -147,8 +176,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-
-.ms_copy{
+.ms_copy {
   font-size: 0.75em;
 }
 
