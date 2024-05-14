@@ -36,21 +36,21 @@ export default {
 
 <template>
     <div class="container">
-  <header class="d-flex flex-wrap justify-content-between align-items-center py-3 mb-4 border-bottom">
-    <!-- Download App and Advertise with us links -->
+  <header class="d-flex flex-wrap justify-content-between align-items-center py-3 mb-4">
+    <!-- LINKS DOWNLOAD APP, ADVERTISE -->
     <div class="d-flex align-items-center">
       <a href="https://1.envato.market/qjLX5" class="nav-link">Download App <span class="badge bg-warning text-dark">iOS</span></a>
       <a href="https://1.envato.market/qjLX5" class="nav-link ms-3">Advertise with us</a>
     </div>
-
+    
     <!-- Logo -->
     <a href="/" class="d-flex align-items-center mx-auto mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
       <img src="https://avada.website/food/wp-content/uploads/sites/118/2021/04/avada-food-logo.svg" alt="Avada Food" width="40" height="32" class="me-2">
-      <span class="fs-4">Simple header</span>
     </a>
-
+    
     <!-- Social media links -->
     <div class="d-flex align-items-center">
+        <span class="fs-4">Simple header</span>
       <a href="https://www.facebook.com/ThemeFusion-101565403356430/" class="nav-link"><i class="bi bi-facebook"></i></a>
       <a href="https://www.instagram.com/themefusion/" class="nav-link"><i class="bi bi-instagram"></i></a>
       <a href="https://twitter.com/theme_fusion" class="nav-link"><i class="bi bi-twitter"></i></a>
