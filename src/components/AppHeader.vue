@@ -13,11 +13,23 @@
             routeName: "home",
           },
           {
+            title: "Recipes",
+            routeName: "recipes",
+          },
+          {
+            title: "Places",
+            routeName: "places",
+          },
+          {
+            title: "Blog",
+            routeName: "blog",
+          },
+          {
             title: "About",
             routeName: "about",
           },
           {
-            title: "Contacts",
+            title: "Contact",
             routeName: "contacts",
           },
         ],
@@ -56,10 +68,20 @@
     </header>
 
     <!-- NavICONS -->
-    <div class="d-flex gap-2 justify-content-center pb-4 nav-icons">
-      <router-link to="/" class="btn">Home</router-link>
+    <div class="d-flex gap-2 justify-content-center pt-2 nav-icons">
+      <ul class="d-flex">
+        <li v-for="item in menu" :key="item" class="mb-3">
+          <router-link :to="{ name: item.routeName }" class="ms_router-link">
+            {{ item.title }}
+          </router-link>
+        </li>
+        <li>
+          <router-link to="/contacts" class="btn"><i class="fa-solid fa-magnifying-glass"></i></router-link> 
+        </li>
+      </ul>
+      <!-- <router-link to="/" class="btn">Home</router-link>
       <router-link to="/about" class="btn">About</router-link>
-      <router-link to="/contacts" class="btn">Contacts</router-link>
+      <router-link to="/contacts" class="btn">Contacts</router-link> -->
     </div>
     <!-- NavICONS -->
   </div>
@@ -128,43 +150,55 @@
   /* ------------------BACKGROUND COLOR AVORIO--------------------- */
 
   /* -----------------buttons--------------------- */
+
+  .nav-icons ul {
+    padding-left: 0;
+  }
+
+  .nav-icons ul li {
+    list-style: none;
+    margin-right: 20px;
+    /* Spazio tra gli elementi */
+  }
+
   .nav-icons router-link {
-  height: 100vh;
-  width: 70vw;
-  min-width: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin: auto;
-}
+    height: 100vh;
+    width: 70vw;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+  }
 
-.nav-icons a {
-  position: relative;
-  text-decoration: none;
-  font-family: sans-serif;
-  color: black;
-  font-size: 18px;
-  letter-spacing: 0.5px;
-  padding: 0 10px;
-}
+  .nav-icons a {
+    position: relative;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+  }
 
-.nav-icons a:after {
-  content: "";
-  position: absolute;
-  background-color: orange;
-  height: 3px;
-  width: 0;
-  left: 0;
-  bottom: -10px;
-  transition: 0.3s;
-}
+  .nav-icons a:after {
+    content: "";
+    position: absolute;
+    background-color: orange;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
 
-.nav-icons a:hover {
-  color: #000;
-}
+  .nav-icons a:hover {
+    color: #000;
+  }
 
-.nav-icons a:hover:after {
-  width: 100%;
-}
+  .nav-icons a:hover:after {
+    width: 100%;
+  }
+
   /* -----------------buttons--------------------- */
 </style>
