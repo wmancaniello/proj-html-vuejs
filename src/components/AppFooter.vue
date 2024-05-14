@@ -45,7 +45,7 @@ export default {
 
     <!-- FOOTER DOWN -->
 
-    <!-- Logo e Social -->
+    <!-- Section 1 -->
     <div class="row justify-content-around text-center text-md-start">
       <div class="col-md-3 text-center">
         <div class="mb-4">
@@ -60,7 +60,7 @@ export default {
         <AppIconsSocial />
         <!-- /Icone Social -->
       </div>
-      <!-- /Logo e Social -->
+      <!-- /Section 1 -->
 
       <!-- Section 2 -->
       <div class="col-md-3">
@@ -76,26 +76,28 @@ export default {
 
       <!-- Section 3 -->
       <div class="col-md-3 ms_contact">
-        <h5 class="text-uppercase mb-4 font-weight-bold">Contact US</h5>
+        <h6 class="text-uppercase mb-4 font-weight-bold ms_text-orange">
+          Contact US
+        </h6>
 
         <ul class="list-unstyled">
           <li class="d-flex flex-row gap-3">
             <div>
-              <i class="fa-solid fa-location-dot"></i>
+              <i class="fa-solid fa-location-dot ms_text-orange"></i>
             </div>
             <div>12345 Avada Main Street, New York, NY 555555</div>
           </li>
           <hr />
 
           <li class="d-flex flex-row gap-3">
-            <div><i class="fa-solid fa-phone-flip"></i></div>
+            <div><i class="fa-solid fa-phone-flip ms_text-orange"></i></div>
             <div>+ 0100-505-0000</div>
           </li>
           <hr />
 
           <li class="d-flex flex-row gap-3">
             <div>
-              <i class="fa-solid fa-envelope"></i>
+              <i class="fa-solid fa-envelope ms_text-orange"></i>
             </div>
             <div>info@avada-domain.com</div>
           </li>
@@ -129,9 +131,27 @@ export default {
     </div>
     <!-- /Footer Down -->
   </div>
+
+  <!-- Copyright -->
+  <div
+    class="text-center py-4 bg_lightgrey ms_copy"
+  >
+    © Copyright 2012 - 2019 |
+    <a href="#">Avada Website Builder</a>
+    by
+    <a href="#">ThemeFusion</a>
+    | All Rights Reserved | Powered by
+    <a href="#">WordPress</a>
+  </div>
+  <!-- /Copyright -->
 </template>
 
 <style lang="scss" scoped>
+
+.ms_copy{
+  font-size: 0.75em;
+}
+
 .ms_footer {
   background-color: #fff;
 }
@@ -156,5 +176,14 @@ export default {
 .ms_logo {
   width: 200px;
   height: auto;
+}
+
+// Colori
+.ms_text-orange {
+  color: #fc7523;
+}
+
+.bg_lightgrey {
+  background-color: #f5f5f0;
 }
 </style>
