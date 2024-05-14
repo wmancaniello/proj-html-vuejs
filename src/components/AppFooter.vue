@@ -35,41 +35,52 @@ export default {
 </script>
 
 <template>
-  <div class="container-fluid text-black p-3 ms_footer">
+  <div class="full-width text-black ms_footer">
     <!-- Spazio immagini -->
 
-    <div class="d-flex flex-wrap">
-      <div class="col-12 col-md-3">
+    <div class="d-flex flex-wrap mb-5">
+      <div class="col-12 col-md-3 ms_image">
         <img
           src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/Mixed-fruits-1200x790.jpg"
           alt=""
           class="img-fluid"
         />
+        <div class="ms_content">
+          <p>lorem ipsum dolor sit amet</p>
+        </div>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-3 ms_image">
         <img
-          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/r-rachel-park-366508-unsplash-min.jpg"
+          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/Mixed-fruits-1200x790.jpg"
           alt=""
           class="img-fluid"
         />
+        <div class="ms_content">
+          <p>lorem ipsum dolor sit amet</p>
+        </div>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-3 ms_image">
         <img
-          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/r-michelle-tsang-500721-unsplash-min.jpg"
+          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/Mixed-fruits-1200x790.jpg"
           alt=""
           class="img-fluid"
         />
+        <div class="ms_content">
+          <p>lorem ipsum dolor sit amet</p>
+        </div>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-3 ms_image">
         <img
-          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/r-michelle-tsang-500721-unsplash-min.jpg"
+          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/Mixed-fruits-1200x790.jpg"
           alt=""
           class="img-fluid"
         />
+        <div class="ms_content">
+          <p>lorem ipsum dolor sit amet</p>
+        </div>
       </div>
     </div>
 
-    <hr />
     <!-- /Spazio immagini -->
 
     <!-- FOOTER DOWN -->
@@ -176,6 +187,11 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .ms_copy {
   font-size: 0.75em;
 }
@@ -184,12 +200,6 @@ export default {
   background-color: #fff;
 }
 
-// Immagini TOP FOOTER
-.ms_image-test {
-  background-color: red;
-  // debug
-  height: 200px;
-}
 // /Immagini TOP FOOTER
 
 .ms_router-link {
@@ -213,5 +223,39 @@ export default {
 
 .bg_lightgrey {
   background-color: #f5f5f0;
+}
+
+// Hover IMG
+.ms_image {
+  position: relative;
+
+  img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+}
+
+.ms_content {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.ms_content:hover {
+  opacity: 1;
+}
+
+.ms_content p {
+  color: #fff;
 }
 </style>
