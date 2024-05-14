@@ -3,7 +3,7 @@ export default {};
 </script>
 
 <template>
-    <!-- Container con background image -->
+  <!-- Container con background image -->
   <div
     class="container-fluid ms-home-bg p-0 justify-content-center align-item-center"
   >
@@ -35,47 +35,173 @@ export default {};
   <!-- Card con cibo -->
   <div class="container ms-container-card">
     <div class="row justify-content-center mt-4">
-        <div class="col-12">
-            <hr>
-                <h2 class="text-center"> FOODIE JOURNAL</h2>
-            <hr>
-        </div>
+      <div class="col-12">
+        <hr />
+        <h2 class="text-center">FOODIE JOURNAL</h2>
+        <hr />
+      </div>
     </div>
     <div class="row">
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <img class="card-img-top" src="../assets/img/sushi.jpg" alt="Sushi">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img class="card-img-top" src="../assets/img/sushi.jpg" alt="Sushi" />
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="">Food Corner: Top Japanese Restaurants for Sushi</a>
+            </h5>
+            <p class="card-text">March 25th, 2019</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img class="card-img-top" src="../assets/img/riso.jpg" alt="Rice" />
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href=""
+                >Roundup: My New Favourite Recipes For Healthy Living</a
+              >
+            </h5>
+            <p class="card-text">March 25th, 2019</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img
+            class="card-img-top"
+            src="../assets/img/kimchi.jpg"
+            alt="Kimchi"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="">Meal Prep: Korean Bibimbap with Kimchi</a>
+            </h5>
+            <p class="card-text">March 25th, 2019</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GRIGLIA CON CARD -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 mt-5 p-4">
+        <h2 class="text-center">POPULAR RECIPES</h2>
+        <p class="card-text text-center">
+          Aliquam erat volutpat. Ut quis ligula a magna blandit finibus.
+          Suspendisse maximus lacus non nunc lacinia lobortis.
+        </p>
+      </div>
+      <div class="container">
+    <div class="row">
+        <!-- Colonna sinistra con la grande card -->
+        <div class="col-md-6 mb-3">
+            <div class="card">
+                <!-- Contenuto della grande card -->
+                <img src="../assets/img/beans.jpg" alt="beans" />
                 <div class="card-body">
-                    <h5 class="card-title"><a href="">Food Corner: Top Japanese Restaurants for Sushi</a></h5>
-                    <p class="card-text">March 25th, 2019</p>
+                    <h5 class="card-title">Lunch Favourite with Salad, Naan and Beans</h5>
+                    <p class="card-text">Suspendisse at semper odio. Nam fringilla scelerisque tincidunt.
+                Orci varius natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Donec tincidunt posuere ornare.
+                Phasellus placerat odio non feugiat sollicitudin. Integer vitae
+                elementum ex. Sed porttitor, diam eget convallis volutpat, arcu.</p>
+                <a href="" class="btn btn-primary ms-btn">Learn More</a>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <img class="card-img-top" src="../assets/img/riso.jpg" alt="Rice">
-                <div class="card-body">
-                    <h5 class="card-title"><a href="">Roundup: My New Favourite Recipes For Healthy Living</a></h5>
-                    <p class="card-text">March 25th, 2019</p>
+
+        <!-- Colonna destra con le 6 card divise su tre righe -->
+        <div class="col-md-6">
+            <!-- Prima riga di card -->
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <a href="">
+                            <img class="ms-img" src="../assets/img/banana.jpg" alt="">
+                        </a>
+                        <!-- Contenuto della prima card -->
+                        <div class="card-body">
+                            <h5 class="card-title">Fruit Platter with Banana, Mango, Berries and Orange</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <a href="">
+                            <img class="ms-img" src="../assets/img/egg-fruit.jpg" alt="">
+                        </a>
+                        <!-- Contenuto della seconda card -->
+                        <div class="card-body">
+                            <h5 class="card-title">Breakfast Delight With Strawberry, Egg and Fruit</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <img class="card-img-top" src="../assets/img/kimchi.jpg" alt="Kimchi">
-                <div class="card-body">
-                    <h5 class="card-title"><a href="">Meal Prep: Korean Bibimbap with Kimchi</a></h5>
-                    <p class="card-text">March 25th, 2019</p>
+            <!-- Seconda riga di card -->
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <a href="">
+                            <img class="ms-img" src="../assets/img/ice-cream.jpg" alt="">
+                        </a>
+                        <!-- Contenuto della terza card -->
+                        <div class="card-body">
+                            <h5 class="card-title">Ice Cream Heaven With Vanilla, Chocolate and Pistachio</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <a href="">
+                            <img class="ms-img" src="../assets/img/fruit-drink.png" alt="">
+                        </a>
+                        <!-- Contenuto della quarta card -->
+                        <div class="card-body">
+                            <h5 class="card-title">Video Recipe: How to make a Summer Drink Cool</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Terza riga di card -->
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <a href="">
+                            <img class="ms-img" src="../assets/img/fruit-vegetables.png" alt="">
+                        </a>
+                        
+                        <!-- Contenuto della quinta card -->
+                        <div class="card-body">
+                            <h5 class="card-title">Ketogenic Diet Recipe with Avocado</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <a href="">
+                            <img class="ms-img" src="../assets/img/drink.png" alt="">
+                        </a>
+                        <!-- Contenuto della sesta card -->
+                        <div class="card-body">
+                            <h5 class="card-title">Video Recipe: The perfect Cosmopolitan</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+      
+    </div>
+    </div>
+  <!-- </div> -->
 </template>
 
 <style scoped lang="scss">
-
-
 .ms-home-bg {
   background-image: url("../assets/img/bg-1.jpg");
   background-size: cover;
@@ -87,7 +213,6 @@ export default {};
   height: 700px;
 
   .ms-btn-home {
-    background-color: #fc7523;
     border: none;
     margin-bottom: -50px;
   }
@@ -100,6 +225,10 @@ export default {};
     font-family: serif;
   }
 }
+.ms-btn-home {
+  margin-bottom: -50px;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -109,11 +238,21 @@ a {
 }
 
 /* CARD CON CIBO */
-.ms-container-card{
-    margin: auto;
-    background-color: #FFFF;
-    margin-top: -100px;
-
+.ms-container-card {
+  margin: auto;
+  background-color: #ffff;
+  margin-top: -100px;
 }
 
+/* GRIGLIA CON CARD */
+.ms-btn,
+.ms-btn-home {
+  background-color: #fc7523;
+  border: none;
+}
+
+.ms-img{
+    height: 200px;
+    
+}
 </style>
