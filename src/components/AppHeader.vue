@@ -3,10 +3,9 @@ import AppIconsSocial from "./AppIconsSocial.vue";
 
 
 export default {
-    components: {
-        AppIconsSocial
-    },
-
+  components: {
+    AppIconsSocial,
+  },
   data() {
     return {
       menu: [
@@ -62,13 +61,6 @@ export default {
         
         <!-- ------------------Social media links------------------ -->
         <div class="d-flex justify-content-end align-items-start w-30 my-wrapper">
-            <!-- <div class="my-icon my-facebook">
-                <a href="https://www.facebook.com/ThemeFusion-101565403356430/" class="nav-link px-3"><i class="fa-brands fa-facebook-f"></i></a>
-                <div class="my-tooltip">Facebook</div>
-            </div>
-          <a href="https://www.instagram.com/themefusion/" class="nav-link px-3"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://twitter.com/theme_fusion" class="nav-link px-3"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="https://www.youtube.com/@AvadaVideos" class="nav-link px-3"><i class="fa-brands fa-youtube"></i></a> -->
           <AppIconsSocial />
 
         </div>
@@ -80,17 +72,10 @@ export default {
   
 
     <!-- STAGING BOTTOM -->
-    <div class="px-4 py-5 my-5 text-center">
-      <img class="d-block mx-auto mb-4" src="https://avada.website/food/wp-content/uploads/sites/118/2021/04/avada-food-logo.svg" alt="" width="152" height="121">
-      <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-        </div>
-      </div>
-    </div>
+    <div class="d-flex gap-2 justify-content-center py-5">
+        <router-link to="/" class="btn btn-primary rounded-pill">Home</router-link>
+        <router-link to="/about" class="btn btn-secondary rounded-pill">About</router-link>
+        <router-link to="/contacts" class="btn btn-success rounded-pill">Contacts</router-link>    </div>
     <!-- STAGING BOTTOM -->
 
   </template>
