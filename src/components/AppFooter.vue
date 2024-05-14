@@ -51,7 +51,7 @@ export default {
       </div>
       <div class="col-12 col-md-3 ms_image">
         <img
-          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/Mixed-fruits-1200x790.jpg"
+          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/r-rachel-park-366508-unsplash-min-1200x790.jpg"
           alt=""
           class="img-fluid"
         />
@@ -61,7 +61,7 @@ export default {
       </div>
       <div class="col-12 col-md-3 ms_image">
         <img
-          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/Mixed-fruits-1200x790.jpg"
+          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/r-michelle-tsang-500721-unsplash-min-1200x790.jpg"
           alt=""
           class="img-fluid"
         />
@@ -71,7 +71,7 @@ export default {
       </div>
       <div class="col-12 col-md-3 ms_image">
         <img
-          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/Mixed-fruits-1200x790.jpg"
+          src="https://avada.website/food/wp-content/uploads/sites/118/2019/03/r-michelle-tsang-500721-unsplash-min-1200x790.jpg"
           alt=""
           class="img-fluid"
         />
