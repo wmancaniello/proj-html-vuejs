@@ -62,7 +62,15 @@ export default {
         
         <!-- ------------------Social media links------------------ -->
         <div class="d-flex justify-content-end align-items-start w-30 my-wrapper">
+            <!-- <div class="my-icon my-facebook">
+                <a href="https://www.facebook.com/ThemeFusion-101565403356430/" class="nav-link px-3"><i class="fa-brands fa-facebook-f"></i></a>
+                <div class="my-tooltip">Facebook</div>
+            </div>
+          <a href="https://www.instagram.com/themefusion/" class="nav-link px-3"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/theme_fusion" class="nav-link px-3"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.youtube.com/@AvadaVideos" class="nav-link px-3"><i class="fa-brands fa-youtube"></i></a> -->
           <AppIconsSocial />
+
         </div>
         <!-- ------------------Social media links------------------ -->
 

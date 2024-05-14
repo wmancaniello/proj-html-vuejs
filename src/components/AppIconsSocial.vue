@@ -1,45 +1,37 @@
 <script>
-
-export default {
- 
-};
+export default {};
 </script>
 
-
 <template>
-        <div class="wrapper">
-          <div class="icon facebook">
-            <div class="ms_tooltip">Facebook</div>
-            <span><i class="fa-brands fa-facebook-f"></i></span>
-          </div>
+  <div class="wrapper">
+    <div class="icon facebook">
+      <div class="ms_tooltip">Facebook</div>
+      <span><a href="https://www.facebook.com/ThemeFusion-101565403356430/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></span>
+    </div>
 
-          <div class="icon instagram">
-            <div class="ms_tooltip">Instagram</div>
-            <span><i class="fa-brands fa-instagram"></i></span>
-          </div>
+    <div class="icon instagram">
+      <div class="ms_tooltip">Instagram</div>
+      <span><a href="https://www.instagram.com/themefusion/" target="_blank"><i class="fa-brands fa-instagram"></i></a></span>
+    </div>
 
-          <div class="icon twitter">
-            <div class="ms_tooltip">X</div>
-            <span><i class="fa-brands fa-x-twitter"></i></span>
-          </div>
+    <div class="icon twitter">
+      <div class="ms_tooltip">X</div>
+      <span><a href="https://twitter.com/theme_fusion" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></span>
+    </div>
 
-          <div class="icon youtube">
-            <div class="ms_tooltip">YouTube</div>
-            <span><i class="fa-brands fa-youtube"></i></span>
-          </div>
-        </div>
+    <div class="icon youtube">
+      <div class="ms_tooltip">YouTube</div>
+      <span><a href="https://www.youtube.com/@AvadaVideos" target="_blank"><i class="fa-brands fa-youtube"></i></a></span>
+    </div>
+  </div>
 </template>
-  
-  
 
 <style scoped>
-
 /* ICONE SOCIAL */
 
 .wrapper {
   display: inline-flex;
   gap: 20px;
-  /* margin: 25px 0; */
 }
 .wrapper .icon {
   display: flex;
@@ -110,40 +102,31 @@ export default {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
 }
 
-/* // Facebook */
+/* Facebook */
 .wrapper .facebook:hover span,
 .wrapper .facebook:hover .ms_tooltip,
 .wrapper .facebook:hover .ms_tooltip:before {
   background: #3b5999;
 }
 
-/* // Instagram */
+/* Instagram */
 .wrapper .instagram:hover span,
 .wrapper .instagram:hover .ms_tooltip,
 .wrapper .instagram:hover .ms_tooltip:before {
   background: #e1306c;
 }
 
-/* // Twitter */
+/* Twitter */
 .wrapper .twitter:hover span,
 .wrapper .twitter:hover .ms_tooltip,
 .wrapper .twitter:hover .ms_tooltip:before {
   background: #333;
 }
 
-/* // YouTube */
+/* YouTube */
 .wrapper .youtube:hover span,
 .wrapper .youtube:hover .ms_tooltip,
 .wrapper .youtube:hover .ms_tooltip:before {
   background: #de463b;
 }
-
-
 </style>
-
-
-  
-
-
-
-
