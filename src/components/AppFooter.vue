@@ -32,7 +32,7 @@ export default {
 <template>
   <div class="container-fluid text-black p-3 ms_footer">
     <!-- Spazio immagini -->
-    <div class="mt-3">
+    <div class="mt-3 ms_image-test">
       <h3 class="text-center fw-bold">Spazio per immagini</h3>
     </div>
     <hr />
@@ -57,7 +57,7 @@ export default {
           </div>
 
           <div class="icon instagram">
-            <div class="ms_tooltip">Instragram</div>
+            <div class="ms_tooltip">Instagram</div>
             <span><i class="fa-brands fa-instagram"></i></span>
           </div>
 
@@ -131,6 +131,14 @@ export default {
   background-color: #fff;
 }
 
+// Immagini TOP FOOTER
+.ms_image-test {
+  background-color: red;
+  // debug
+  height: 200px;
+}
+// /Immagini TOP FOOTER
+
 .ms_router-link {
   text-decoration: none;
   color: inherit;
@@ -150,10 +158,9 @@ export default {
 .wrapper {
   display: inline-flex;
   gap: 20px;
-  margin-top: 20px;
+  margin: 25px 0;
 }
 .wrapper .icon {
-  // margin: 0 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -161,7 +168,7 @@ export default {
   position: relative;
   z-index: 2;
   cursor: pointer;
-  transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .wrapper .icon span {
@@ -196,7 +203,7 @@ export default {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   opacity: 0;
   pointer-events: none;
-  transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .wrapper .icon:hover .ms_tooltip {
@@ -211,42 +218,42 @@ export default {
   height: 15px;
   width: 15px;
   background: #fff;
-  top: -5px;
+  top: -2px;
   left: 50%;
   transform: translateX(-50%) rotate(45deg);
-  transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .wrapper .icone:hover span,
 .wrapper .icon:hover .ms_tooltip {
-  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
 }
 
 // Facebook
 .wrapper .facebook:hover span,
-.wrapper .facebook:hover .ms_tooltip, 
+.wrapper .facebook:hover .ms_tooltip,
 .wrapper .facebook:hover .ms_tooltip:before {
-  background: #3B5999;
+  background: #3b5999;
 }
 
 // Instagram
 .wrapper .instagram:hover span,
-.wrapper .instagram:hover .ms_tooltip, 
+.wrapper .instagram:hover .ms_tooltip,
 .wrapper .instagram:hover .ms_tooltip:before {
   background: #e1306c;
 }
 
 // Twitter
 .wrapper .twitter:hover span,
-.wrapper .twitter:hover .ms_tooltip, 
+.wrapper .twitter:hover .ms_tooltip,
 .wrapper .twitter:hover .ms_tooltip:before {
   background: #333;
 }
 
 // YouTube
 .wrapper .youtube:hover span,
-.wrapper .youtube:hover .ms_tooltip, 
+.wrapper .youtube:hover .ms_tooltip,
 .wrapper .youtube:hover .ms_tooltip:before {
-  background: #DE463B;
+  background: #de463b;
 }
 </style>
