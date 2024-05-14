@@ -41,8 +41,8 @@ export default {
 </template> -->
 
 <template>
-    <div class="container">
-      <header class="d-flex flex-wrap justify-content-between align-items-start py-3 mb-4">
+    <div class="container ivory-background full-width">
+      <header class="d-flex flex-wrap justify-content-between align-items-start pt-3 mb-4">
         <!-- ------------------LINKS DOWNLOAD APP, ADVERTISE------------------ -->
         <div class="d-flex align-items-start w-30">
           <a href="https://1.envato.market/qjLX5" class="nav-link orange-hover">Download App <span class="badge bg-warning text-dark">iOS</span> </a>
@@ -67,16 +67,17 @@ export default {
         <!-- ------------------Social media links------------------ -->
 
       </header>
-
+      
+      <!-- STAGING BOTTOM -->
+      <div class="d-flex gap-2 justify-content-center pb-4">
+          <router-link to="/" class="btn btn-primary rounded-pill">Home</router-link>
+          <router-link to="/about" class="btn btn-secondary rounded-pill">About</router-link>
+          <router-link to="/contacts" class="btn btn-success rounded-pill">Contacts</router-link>    
+      </div>
+      <!-- STAGING BOTTOM -->
     </div>
   
 
-    <!-- STAGING BOTTOM -->
-    <div class="d-flex gap-2 justify-content-center py-5">
-        <router-link to="/" class="btn btn-primary rounded-pill">Home</router-link>
-        <router-link to="/about" class="btn btn-secondary rounded-pill">About</router-link>
-        <router-link to="/contacts" class="btn btn-success rounded-pill">Contacts</router-link>    </div>
-    <!-- STAGING BOTTOM -->
 
   </template>
   
@@ -91,6 +92,16 @@ export default {
 }
 
 /* ------------------SIZES------------------------- */
+
+/* ------------------FULL WIDTH HeADER------------------------- */
+
+.full-width {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ------------------FULL WIDTH HeADER------------------------- */
+
 
 
 .logo {
@@ -124,8 +135,16 @@ export default {
 /* ------------------HOVER EFFECTS-------------------------------- */
 
 .orange-hover:hover {
-  color: #ff6600; /* Colore arancione */
+  color: #ff6600;
 }
+
+/* ------------------BACKGROUND COLOR AVORIO--------------------- */
+
+/* .ivory-background {
+  background-color: #f5f5f1; 
+} */
+
+/* ------------------BACKGROUND COLOR AVORIO--------------------- */
 
 </style>
 
