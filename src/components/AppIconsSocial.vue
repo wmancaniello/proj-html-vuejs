@@ -39,7 +39,7 @@ export default {
 .wrapper {
   display: inline-flex;
   gap: 20px;
-  margin: 25px 0;
+  /* margin: 25px 0; */
 }
 .wrapper .icon {
   display: flex;

@@ -62,15 +62,7 @@ export default {
         
         <!-- ------------------Social media links------------------ -->
         <div class="d-flex justify-content-end align-items-start w-30 my-wrapper">
-            <!-- <div class="my-icon my-facebook">
-                <a href="https://www.facebook.com/ThemeFusion-101565403356430/" class="nav-link px-3"><i class="fa-brands fa-facebook-f"></i></a>
-                <div class="my-tooltip">Facebook</div>
-            </div>
-          <a href="https://www.instagram.com/themefusion/" class="nav-link px-3"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://twitter.com/theme_fusion" class="nav-link px-3"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="https://www.youtube.com/@AvadaVideos" class="nav-link px-3"><i class="fa-brands fa-youtube"></i></a> -->
           <AppIconsSocial />
-
         </div>
         <!-- ------------------Social media links------------------ -->
 
@@ -140,21 +132,6 @@ export default {
 
 .orange-hover:hover {
   color: #ff6600; /* Colore arancione */
-}
-
-/* ------------------ICONS TEXTBOX-------------------------------- */
-
-.my-wrapper .my-icon a{
-    height: 60px;
-    width: 60px;
-    display: block;
-}
-
-.my-wrapper .my-icon .my-tooltip{
-    background-color: grey;
-    /* font-size: 20px; */
-    /* padding: 8px 18px; */
-    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
 }
 
 </style>
