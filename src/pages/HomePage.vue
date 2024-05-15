@@ -95,110 +95,256 @@ export default {};
         </p>
       </div>
       <div class="container">
-    <div class="row">
-        <!-- Colonna sinistra con la grande card -->
-        <div class="col-md-6 mb-3">
+        <div class="row">
+          <!-- Colonna sinistra con la grande card -->
+          <div class="col-md-6 mb-3">
             <div class="card">
-                <!-- Contenuto della grande card -->
-                <img src="../assets/img/beans.jpg" alt="beans" />
-                <div class="card-body">
-                    <h5 class="card-title">Lunch Favourite with Salad, Naan and Beans</h5>
-                    <p class="card-text">Suspendisse at semper odio. Nam fringilla scelerisque tincidunt.
-                Orci varius natoque penatibus et magnis dis parturient montes,
-                nascetur ridiculus mus. Donec tincidunt posuere ornare.
-                Phasellus placerat odio non feugiat sollicitudin. Integer vitae
-                elementum ex. Sed porttitor, diam eget convallis volutpat, arcu.</p>
+              <!-- Contenuto della grande card -->
+              <img src="../assets/img/beans.jpg" alt="beans" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Lunch Favourite with Salad, Naan and Beans
+                </h5>
+                <p class="card-text">
+                  Suspendisse at semper odio. Nam fringilla scelerisque
+                  tincidunt. Orci varius natoque penatibus et magnis dis
+                  parturient montes, nascetur ridiculus mus. Donec tincidunt
+                  posuere ornare. Phasellus placerat odio non feugiat
+                  sollicitudin. Integer vitae elementum ex. Sed porttitor, diam
+                  eget convallis volutpat, arcu.
+                </p>
                 <a href="" class="btn btn-primary ms-btn">Learn More</a>
-                </div>
+              </div>
             </div>
-        </div>
+          </div>
 
-        <!-- Colonna destra con le 6 card divise su tre righe -->
-        <div class="col-md-6">
+          <!-- Colonna destra con le 6 card divise su tre righe -->
+          <div class="col-md-6">
             <!-- Prima riga di card -->
             <div class="row">
-                <div class="col-md-6 mb-3">
-                    <div class="card">
-                        <a href="">
-                            <img class="ms-img" src="../assets/img/banana.jpg" alt="">
-                        </a>
-                        <!-- Contenuto della prima card -->
-                        <div class="card-body">
-                            <h5 class="card-title">Fruit Platter with Banana, Mango, Berries and Orange</h5>
-                        </div>
-                    </div>
+              <div class="col-md-6 mb-3">
+                <div class="card">
+                  <a href="">
+                    <img class="ms-img" src="../assets/img/banana.jpg" alt="" />
+                  </a>
+                  <!-- Contenuto della prima card -->
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Fruit Platter with Banana, Mango, Berries and Orange
+                    </h5>
+                  </div>
                 </div>
-                <div class="col-md-6 mb-3">
-                    <div class="card">
-                        <a href="">
-                            <img class="ms-img" src="../assets/img/egg-fruit.jpg" alt="">
-                        </a>
-                        <!-- Contenuto della seconda card -->
-                        <div class="card-body">
-                            <h5 class="card-title">Breakfast Delight With Strawberry, Egg and Fruit</h5>
-                        </div>
-                    </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="card">
+                  <a href="">
+                    <img
+                      class="ms-img"
+                      src="../assets/img/egg-fruit.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <!-- Contenuto della seconda card -->
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Breakfast Delight With Strawberry, Egg and Fruit
+                    </h5>
+                  </div>
                 </div>
+              </div>
             </div>
             <!-- Seconda riga di card -->
             <div class="row">
-                <div class="col-md-6 mb-3">
-                    <div class="card">
-                        <a href="">
-                            <img class="ms-img" src="../assets/img/ice-cream.jpg" alt="">
-                        </a>
-                        <!-- Contenuto della terza card -->
-                        <div class="card-body">
-                            <h5 class="card-title">Ice Cream Heaven With Vanilla, Chocolate and Pistachio</h5>
-                        </div>
-                    </div>
+              <div class="col-md-6 mb-3">
+                <div class="card">
+                  <a href="">
+                    <img
+                      class="ms-img"
+                      src="../assets/img/ice-cream.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <!-- Contenuto della terza card -->
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Ice Cream Heaven With Vanilla, Chocolate and Pistachio
+                    </h5>
+                  </div>
                 </div>
-                <div class="col-md-6 mb-3">
-                    <div class="card">
-                        <a href="">
-                            <img class="ms-img" src="../assets/img/fruit-drink.png" alt="">
-                        </a>
-                        <!-- Contenuto della quarta card -->
-                        <div class="card-body">
-                            <h5 class="card-title">Video Recipe: How to make a Summer Drink Cool</h5>
-                        </div>
-                    </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="card">
+                  <a href="">
+                    <img
+                      class="ms-img"
+                      src="../assets/img/summer-drink.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <!-- Contenuto della quarta card -->
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Video Recipe: How to make a Summer Drink Cool
+                    </h5>
+                  </div>
                 </div>
+              </div>
             </div>
             <!-- Terza riga di card -->
             <div class="row">
-                <div class="col-md-6 mb-3">
-                    <div class="card">
-                        <a href="">
-                            <img class="ms-img" src="../assets/img/fruit-vegetables.png" alt="">
-                        </a>
-                        
-                        <!-- Contenuto della quinta card -->
-                        <div class="card-body">
-                            <h5 class="card-title">Ketogenic Diet Recipe with Avocado</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-3">
-                    <div class="card">
-                        <a href="">
-                            <img class="ms-img" src="../assets/img/drink.png" alt="">
-                        </a>
-                        <!-- Contenuto della sesta card -->
-                        <div class="card-body">
-                            <h5 class="card-title">Video Recipe: The perfect Cosmopolitan</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+              <div class="col-md-6 mb-3">
+                <div class="card">
+                  <a href="">
+                    <img
+                      class="ms-img"
+                      src="../assets/img/fruit-vegetables.jpg"
+                      alt=""
+                    />
+                  </a>
 
-      
+                  <!-- Contenuto della quinta card -->
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Ketogenic Diet Recipe with Avocado
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <div class="card">
+                  <a href="">
+                    <img class="ms-img" src="../assets/img/drink.jpg" alt="" />
+                  </a>
+                  <!-- Contenuto della sesta card -->
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Video Recipe: The perfect Cosmopolitan
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+
+  <!-- CULINARY COLLECTION -->
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center my-5">
+        <h2>CULINARY COLLECTION</h2>
+        <p>
+          Aliquam erat volutpat. Ut quis ligula a magna blandit finibus.
+          Suspendisse maximus lacus non nunc lacinia lobortis.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="card mb-4 ms-card mx-5">
+              <img
+                class="card-img-top"
+                src="../assets/img/cheese.webp"
+                alt="Cheese"
+              />
+              <div class="card-body text-center">
+                <a href="" class="ms-btn-recipes btn btn-primary w-100">Appetisers</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="card ms-card mx-5">
+              <img
+                class="card-img-top"
+                src="../assets/img/bakery.webp"
+                alt="Bakery"
+              />
+              <div class="card-body text-center">
+                <a href="/" class="ms-btn-recipes btn btn-primary w-100">Bakery</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="card ms-card mx-5">
+              <img
+                class="card-img-top mx-auto"
+                src="../assets/img/dinner.webp"
+                alt="Dinner"
+              />
+              <div class="card-body text-center">
+                <a href="" class="ms-btn-recipes btn btn-primary w-100">Dinner</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="card ms-card mx-5">
+              <img
+                class="card-img-top"
+                src="../assets/img/drinks.webp"
+                alt="Drinks"
+              />
+              <div class="card-body text-center">
+                <a href="" class="ms-btn-recipes btn btn-primary w-100">Drinks</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="card mb-5 ms-card mx-5">
+              <img
+                class="card-img-top"
+                src="../assets/img/healthy.webp"
+                alt="healthy"
+              />
+              <div class="card-body text-center">
+                <a href="" class="ms-btn-recipes btn btn-primary w-100">Healthy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="card ms-card mx-5">
+              <img
+                class="card-img-top"
+                src="../assets/img/quick-easy.webp"
+                alt="quick"
+              />
+              <div class="card-body text-center">
+                <a href="" class="ms-btn-recipes btn btn-primary w-100">Quick & Easy</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="card ms-card mx-5">
+              <img
+                class="card-img-top"
+                src="../assets/img/soups.webp"
+                alt="soup"
+              />
+              <div class="card-body text-center">
+                <a href="" class="ms-btn-recipes btn btn-primary w-100">Soups</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6">
+            <div class="card ms-card mx-5">
+              <img
+                class="card-img-top"
+                src="../assets/img/staff-picks.webp"
+                alt="staff"
+              />
+              <div class="card-body text-center">
+                <a href="" class="ms-btn-recipes btn btn-primary w-100">Staff Picks</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  <!-- </div> -->
+  </div>
 </template>
 
 <style scoped lang="scss">
@@ -246,13 +392,19 @@ a {
 
 /* GRIGLIA CON CARD */
 .ms-btn,
-.ms-btn-home {
+.ms-btn-home,
+.ms-btn-recipes{
   background-color: #fc7523;
   border: none;
+  border-radius: 0%;
 }
 
-.ms-img{
-    height: 200px;
-    
+.ms-img {
+  height: 200px;
+}
+
+/* CULINARY COLLECTION */
+.card-img-top {
+  width: 75%;
 }
 </style>
