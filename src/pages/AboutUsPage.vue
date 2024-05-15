@@ -295,6 +295,17 @@
                 </div>
             </div>
         </div>
+
+        <!------------------ Sezione We Are Hiring ------------------>
+        <div class="we-are-hiring-section">
+            <div class="container text-center">
+                <h2>We Are Hiring! Let's Get in Touch.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius ante. Sed quis luctus
+                    eros. Phasellus rutrum laoreet leo in consequat.</p>
+                <a href="#" class="btn btn-primary">Contact Us</a>
+                <p>Include your resume and portfolio link in the e-mail</p>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -375,11 +386,11 @@
         margin: 0;
     }
 
-        /* ------------------------------ Font Awesome Icons ----------------------------------------------- */
+    /* ------------------------------ Font Awesome Icons ----------------------------------------------- */
 
 
     /* ------------------------------ GENERALE, da riorganizzare, ho un po' perso la testa ----------------------------------------------- */
-    
+
     h2 {
         font-family: 'Playfair Display', serif;
         color: #333;
@@ -551,5 +562,42 @@
         font-family: 'Roboto', sans-serif;
         font-size: 0.875rem;
         color: #666;
+    }
+
+    /* ------------------------------ WE ARE HIRING SECTION----------------------------------------------- */
+
+
+    .we-are-hiring-section {
+        background-image: url("../assets/img/your-background-image.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 100px 0;
+        color: #333;
+    }
+
+    .we-are-hiring-section h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .we-are-hiring-section p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    .we-are-hiring-section .btn {
+        background-color: #fc7523;
+        color: white;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .we-are-hiring-section .btn:hover {
+        background-color: #e3691f;
     }
 </style>
