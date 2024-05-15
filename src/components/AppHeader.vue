@@ -76,7 +76,7 @@
           </router-link>
         </li>
         <li>
-          <router-link to="/contacts" class="btn"><i class="fa-solid fa-magnifying-glass"></i></router-link> 
+          <a class="btn"><i class="fa-solid fa-magnifying-glass"></i></a> 
         </li>
       </ul>
       <!-- <router-link to="/" class="btn">Home</router-link>
@@ -204,6 +204,15 @@
     width: 100%;
   }
 
+  /* ---------------------------  Active class with router link ------------------------ */
+
+  .nav-icons .router-link-active {
+    color: orange;
+  }
+
+  .nav-icons .router-link-active:after {
+    width: 100%;
+  }
 
   /* -----------------buttons--------------------- */
 </style>
