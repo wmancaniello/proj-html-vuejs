@@ -345,6 +345,66 @@ export default {};
       </div>
     </div>
   </div>
+
+  <!-- FARM TO TABLE -->
+  <div class="container my-5 ">
+    <div class="row">
+      <div class="col-md-6 text-left">
+        <h2>FARM TO TABLE</h2>
+        <p>Aliquam erat volutpat. Ut quis ligula a magna blandit finibus. Suspendisse maximus lacus non nunc lacinia lobortis.</p>
+      </div>
+      <div class="col-md-6 text-right">
+        <a href="" class="ms-btn btn btn-primary">READ OUR BLOG <i class="fa-solid fa-book-open-reader"></i></a>
+      </div>
+    </div>
+    <!-- CARD GRANDE  A SINISTRA -->
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <div class="card">
+            <img src="../assets/img/sushi.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">
+                Food corner: Top Japanese Restaurants for Sushi
+              </h5>
+              <p class="card-text">
+                Suspendisse at semper odio. Nam fringilla scelerisque
+                  tincidunt. Orci varius natoque penatibus et magnis dis
+                  parturient montes, nascetur ridiculus mus. Donec tincidunt
+                  posuere ornare. Phasellus placerat odio non feugiat
+                  sollicitudin. Integer vitae elementum ex. Sed porttitor, diam
+                  eget convallis volutpat, arcu.
+              </p>
+              <a href="" class="ms-btn-noborder btn btn-primary ms-btn">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PRIMA CARD A DESTRA -->
+        
+          <div class="col-md-6">
+            <div class="card mb-4">
+              <a href="">
+                <img class="img-our-recipe" src="../assets/img/bg-card-recipes.jpg" alt="">
+              </a>
+              
+            </div>
+          </div>
+        
+
+<!-- SECONDA CARD A DESTRA -->
+        
+            <div class="card mb-4">
+              <a href="">
+                <img class="" src="../assets/img/singapore.jpg" alt="">
+              </a>
+              <div class="align-items justify-content-center text-center">
+                <h5><a href="">City Guides Singapore</a></h5>
+              </div>
+              <a href="" class="btn btn-primary ms-btn">View all City Guides <i class="fa-solid fa-globe"></i></a>
+            
+        </div>
+      </div>
+  </div>
 </template>
 
 <style scoped lang="scss">
@@ -395,6 +455,7 @@ a {
 .ms-btn-home,
 .ms-btn-recipes{
   background-color: #fc7523;
+  color: white;
   border: none;
   border-radius: 0%;
 }
@@ -406,5 +467,18 @@ a {
 /* CULINARY COLLECTION */
 .card-img-top {
   width: 75%;
+}
+
+/*FARM TABLE*/ 
+.ms-btn-noborder{
+  border: none;
+  background-color: #ffff;
+  color: black;
+}
+.ms-btn-noborder:hover{
+  border-bottom: 1px solid black;
+}
+.img-our-recipe{
+  width:70%;
 }
 </style>
