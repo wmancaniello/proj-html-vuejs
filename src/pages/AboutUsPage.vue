@@ -6,7 +6,7 @@
 
 <template>
     <div>
-        <!-- Container con background image e overlay scuro -->
+        <!-------------------------------- HERO background image e overlay scuro -------------------------------->
         <div class="hero-section">
             <div class="overlay">
                 <div class="text-center">
@@ -15,8 +15,10 @@
                 </div>
             </div>
         </div>
+        <!-------------------------------- HERO background image e overlay scuro -------------------------------->
 
-        <!-- sezione con griglia di immagini e testo -->
+
+        <!----------------------- Sezione con griglia di immagini a sx e testo a dx ----------------------->
         <div class="container my-5">
             <div class="row">
                 <!-- Colonna di sinistra con la griglia di immagini -->
@@ -74,30 +76,37 @@
                         </div>
                     </div>
                 </div>
-                <!-- Sezione con icone e testo -->
-                <div class="container my-5">
-                    <div class="row text-center">
-                        <div class="col-md-4">
-                            <div class="icon-text">
-                                <div>
-                                    <i class="fa-solid fa-square-check custom-icon"></i>
-                                </div>
+            </div>
+        </div>
+
+        <!------------------ Sezione con icone FONTAWSOME e testo ------------------>
+        <div>
+            <div class="container my-5">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div class="icon-text">
+                            <i class="fa-solid fa-square-check custom-icon"></i>
+                            <div>
                                 <h4>AUTHENTICITY</h4>
                                 <p>Aenean eu arcu sed velit mattis vehicula ac quis tellus. Suspendisse elementum justo
                                     neque, a tincidunt est congue quis.</p>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="icon-text">
-                                <i class="fa-solid fa-file-lines custom-icon"></i>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="icon-text">
+                            <i class="fa-solid fa-file-lines custom-icon"></i>
+                            <div>
                                 <h4>REAL REVIEWS</h4>
                                 <p>Praesent erat eros, malesuada nec augue non, aliquet finibus orci. Duis vitae cursus
                                     tortor. Suspendisse blandit volutpat.</p>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="icon-text">
-                                <i class="fa-solid fa-utensils custom-icon"></i>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="icon-text">
+                            <i class="fa-solid fa-utensils custom-icon"></i>
+                            <div>
                                 <h4>UNIQUE RECIPES</h4>
                                 <p>Donec vel volutpat erat. Sed in nulla vitae elit accumsan tempus. Aliquam dapibus
                                     ligula gravida, blandit enim ac, sagittis justo.</p>
@@ -107,8 +116,189 @@
                 </div>
             </div>
         </div>
+
+        <!------------------ ACHIEVMENTS ------------------>
+        <div class="achievements-section my-5">
+            <div class="container">
+                <h2 class="text-center mb-5">OUR ACHIEVEMENTS</h2>
+                <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius
+                    ante. Sed quis luctus eros. Phasellus rutrum laoreet leo in consequat.</p>
+                <div class="row text-center">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="../assets/img/achievment-1.jpg" class="card-img-top" alt="Award">
+                            <div class="card-body">
+                                <h5 class="card-title">Best Food Blog of 2018</h5>
+                                <p class="card-text">Praesent quam magna, varius in laoreet in, condimentum at augue.
+                                    Suspendisse viverra scelerisque lacus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="../assets/img/achievment-2.jpg" class="card-img-top" alt="Trophy">
+                            <div class="card-body">
+                                <h5 class="card-title">Break-Through Recipe #1</h5>
+                                <p class="card-text">Praesent quam magna, varius in laoreet in, condimentum at augue.
+                                    Suspendisse viverra scelerisque lacus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="../assets/img/achievment-2.jpg" class="card-img-top" alt="Waffle">
+                            <div class="card-body">
+                                <h5 class="card-title">Best Food Blog of 2018</h5>
+                                <p class="card-text">Praesent quam magna, varius in laoreet in, condimentum at augue.
+                                    Suspendisse viverra scelerisque lacus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!------------------ Sezione con statistiche ------------------>
+                <div class="row text-center mt-5">
+                    <div class="col-md-2 offset-md-1">
+                        <h3>89</h3>
+                        <p>Unique Recipes</p>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>35</h3>
+                        <p>Online Courses</p>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>500K</h3>
+                        <p>Monthly Pageviews</p>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>17</h3>
+                        <p>Books Published</p>
+                    </div>
+                    <div class="col-md-2">
+                        <h3>31</h3>
+                        <p>Chef Interviews</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------------ Sezione Testimonials ------------------>
+        <div class="testimonials-section my-5">
+            <div class="container">
+                <h2 class="text-center mb-5">TESTIMONIALS</h2>
+                <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius
+                    ante. Sed quis luctus eros. Phasellus rutrum laoreet leo in consequat.</p>
+                <div class="row text-center">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="testimonial-card p-4 mb-4">
+                            <img src="../assets/img/Testimonials-1.jpg" class="testimonial-img" alt="Testimonial">
+                            <blockquote class="blockquote">
+                                <p class="mb-0">Nulla vehicula urna vel velit porttitor, ac auctor sem efficitur.
+                                    Praesent eleifend ante nec condimentum accumsan. Nam elit enim, rhoncus quis
+                                    venenatis ut, tristique ac nisi. Duis pulvinar et magna et faucibus. Nullam eget
+                                    nunc non felis auctor varius sit amet ac nunc.</p>
+                            </blockquote>
+                            <footer class="blockquote-footer">Jean Valdez, <cite title="Company Name">XYZ
+                                    CompanyName</cite></footer>
+                        </div>
+                        <div class="testimonial-navigation">
+                            <span class="testimonial-dot active"></span>
+                            <span class="testimonial-dot"></span>
+                            <span class="testimonial-dot"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial-quote p-4 mb-4">
+                            <blockquote class="blockquote">
+                                <p class="mb-0">One of the best food blog of 2018 about organic food and unique recipes.
+                                    Proin vel iaculis turpis.</p>
+                            </blockquote>
+                            <footer class="blockquote-footer">Avada Food Mag, <cite title="January 2019">January
+                                    2019</cite></footer>
+                        </div>
+                        <div class="testimonial-quote p-4 mb-4">
+                            <blockquote class="blockquote">
+                                <p class="mb-0">Best blog for American Recipes and very good for learning cookings for
+                                    anyone. Praesent id tempus sem.</p>
+                            </blockquote>
+                            <footer class="blockquote-footer">Food Blog Hunt, <cite title="January 2019">January
+                                    2019</cite></footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------------ Sezione Our Writers ------------------>
+        <div class="writers-section my-5">
+            <div class="container">
+                <h2 class="text-center mb-5">OUR WRITERS</h2>
+                <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius
+                    ante. Sed quis luctus eros. Phasellus rutrum laoreet leo in consequat.</p>
+                <div class="row text-center">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="../assets/img/Scott-Estrada.jpg" class="card-img-top" alt="Wayne Barnett">
+                            <div class="card-body">
+                                <h5 class="card-title">Wayne Barnett</h5>
+                                <p class="card-text">Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="../assets/img/Angela-Caroll.jpg" class="card-img-top" alt="Angela Caroll">
+                            <div class="card-body">
+                                <h5 class="card-title">Angela Caroll</h5>
+                                <p class="card-text">Chief Editor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="../assets/img/Walter-Gordon.jpg" class="card-img-top" alt="Walter Gordon">
+                            <div class="card-body">
+                                <h5 class="card-title">Walter Gordon</h5>
+                                <p class="card-text">Head of Recipes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="../assets/img/Angela-Lopez.jpg" class="card-img-top" alt="Angela Lopez">
+                            <div class="card-body">
+                                <h5 class="card-title">Angela Lopez</h5>
+                                <p class="card-text">Junior Chef</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="../assets/img/Scott-Estrada.jpg" class="card-img-top" alt="Scott Estrada">
+                            <div class="card-body">
+                                <h5 class="card-title">Scott Estrada</h5>
+                                <p class="card-text">Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="../assets/img/Barbara-Ramos.jpg" class="card-img-top" alt="Barbara Ramos">
+                            <div class="card-body">
+                                <h5 class="card-title">Barbara Ramos</h5>
+                                <p class="card-text">Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
+
+<!-- -------------------------------------------------STYLE STYLE STYLE STYLE STYLE STYLE STYLE STYLE STYLE STYLE STYLE ---------------------------------------------------- -->
 
 <style scoped lang="scss">
     /* ----------------------- HERO SECTION -------------------------------- */
@@ -145,23 +335,55 @@
     .overlay p {
         font-family: 'Roboto', sans-serif;
         font-size: 1.2rem;
-        color: azure;
+        color: white;
     }
 
-    /* ------------------------------Font AWSOME ----------------------------------------------- */
+    /* ----------------------- HERO SECTION -------------------------------- */
+
+
+    /* ------------------------------ Font Awesome Icons ----------------------------------------------- */
 
     .icon-text {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+        text-align: left;
+        margin-bottom: 20px;
     }
 
     .custom-icon {
-        font-size: 3em;
-        margin-bottom: 10px;
+        font-size: 2em;
+        margin-right: 15px;
+        color: #4e4a45;
     }
 
+    .icon-text h4 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-top: 0;
+        font-size: 1.2em;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid grey;
+        padding-bottom: 5px;
+    }
 
+    .icon-text p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        color: #666;
+        margin: 0;
+    }
+
+        /* ------------------------------ Font Awesome Icons ----------------------------------------------- */
+
+
+    /* ------------------------------ GENERALE, da riorganizzare, ho un po' perso la testa ----------------------------------------------- */
+    
+    h2 {
+        font-family: 'Playfair Display', serif;
+        color: #333;
+    }
 
     h3 {
         font-family: 'Playfair Display', serif;
@@ -207,15 +429,127 @@
         color: #666;
     }
 
-    h2 {
-        font-family: 'Playfair Display', serif;
-        color: #333;
-    }
 
     p.card-text {
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         line-height: 1.5;
+        color: #666;
+    }
+
+
+    .achievements-section {
+        background-image: url("../assets/img/Avada-AboutUs-Background-BIG.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 50px 0;
+    }
+
+    .card {
+        border: none;
+    }
+
+    .card-img-top {
+        border-top-left-radius: calc(.25rem - 1px);
+        border-top-right-radius: calc(.25rem - 1px);
+    }
+
+    .card-body {
+        padding: 1.25rem;
+    }
+
+    .card-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.25rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .card-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.875rem;
+        color: #666;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    h3 {
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        color: #fc7523;
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        color: #666;
+    }
+
+
+    /* ------------------------------ TESTIMONIALS SECTION ----------------------------------------------- */
+
+    .testimonials-section {
+        background-color: #f9f9f9;
+        padding: 50px 0;
+    }
+
+    .testimonial-card {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .testimonial-img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-navigation {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .testimonial-dot {
+        width: 10px;
+        height: 10px;
+        background-color: #ccc;
+        border-radius: 50%;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .testimonial-dot.active {
+        background-color: #fc7523;
+    }
+
+    .testimonial-quote {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* ------------------------------ WRITERS SECTION----------------------------------------------- */
+
+    .writers-section {
+        padding: 50px 0;
+    }
+
+    .card-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.875rem;
         color: #666;
     }
 </style>
