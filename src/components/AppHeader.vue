@@ -40,11 +40,11 @@
 
 <template>
   <div class="ivory-background px-4"> <!-- Aggiunta classe ivory-background -->
-    <header class="d-flex flex-wrap justify-content-between align-items-start pt-3 mb-4 full-width">
+    <header class="d-flex flex-wrap justify-content-between align-items-start pt-3 px-5 full-width">
       <!-- ------------------LINKS DOWNLOAD APP, ADVERTISE------------------ -->
-      <div class="d-flex align-items-start w-30 ms-4">
+      <div class="d-flex align-items-start w-30 ms-5">
         <a href="https://1.envato.market/qjLX5" class="nav-link orange-hover">Download App <span
-            class="badge bg-warning text-dark">iOS</span> </a>
+            class="badge ios-orange text-white">iOS</span> </a>
         <a href="https://1.envato.market/qjLX5" class="nav-link ms-3 orange-hover">Advertise with us</a>
       </div>
       <!-- ------------------LINKS DOWNLOAD APP, ADVERTISE------------------ -->
@@ -61,14 +61,14 @@
       <!-- ------------------Logo------------------ -->
 
       <!-- ------------------Social media links------------------ -->
-      <div class="d-flex justify-content-end align-items-start w-30 my-wrapper me-4">
+      <div class="d-flex justify-content-end align-items-start w-30 my-wrapper me-5">
         <AppIconsSocial />
       </div>
       <!-- ------------------Social media links------------------ -->
     </header>
 
     <!-- NavICONS -->
-    <div class="d-flex gap-2 justify-content-center pt-2 nav-icons">
+    <div class="d-flex gap-2 justify-content-center pt-4 nav-icons">
       <ul class="d-flex">
         <li v-for="item in menu" :key="item" class="mb-3">
           <router-link :to="{ name: item.routeName }" class="ms_router-link">
@@ -129,6 +129,11 @@
 
   .nav-link:hover .bi {
     color: #ff6600;
+  }
+
+  .ios-orange{
+    background-color: #FA7523;
+    color: white;
   }
 
   /* ------------------HOVER EFFECTS-------------------------------- */
