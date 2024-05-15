@@ -1,5 +1,5 @@
 <script>
-  export default {};
+export default {};
 </script>
 
 <template>
@@ -7,16 +7,16 @@
 </template>
 
 <style scoped>
-  .my-button {
-    background-color: #fc7523;
-    color: white;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
-  }
+.my-button {
+  background-color: #fc7523;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
 
-  .my-button .my-button:hover {
-    background-color: #e3691f;
-  }
+.my-button:hover {
+  background-color: #e3691f;
+}
 </style>

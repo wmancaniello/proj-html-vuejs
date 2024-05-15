@@ -1,9 +1,11 @@
 <script>
 import AppIconsSocial from "../components/AppIconsSocial.vue";
+import AppOrangeButton from "../components/AppOrangeButton.vue"
 
 export default {
   components: {
     AppIconsSocial,
+    AppOrangeButton,
   },
 };
 </script>
@@ -139,7 +141,7 @@ export default {
         For privacy reasons Google Maps needs your permission to be loaded.
       </p>
       <div>
-        <button>Bottone da inserire...</button>
+        <AppOrangeButton text="I ACCEPT"/>
       </div>
     </div>
     <!--  -->
