@@ -319,4 +319,18 @@ export default {
   opacity: 1;
   visibility: visible;
 }
+
+// Classe Active
+
+.nav-icons .router-link-active {
+  color: orange;
+  height: 100%;
+}
+
+.nav-icons .router-link-active:after {
+  height: 100%;
+  transform: translateX(200px);
+  opacity: 1;
+  visibility: visible;
+}
 </style>
