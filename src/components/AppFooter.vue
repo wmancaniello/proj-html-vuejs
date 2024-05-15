@@ -318,7 +318,7 @@ export default {
 }
 
 .nav-icons a:hover:after {
-  transform: translateX(100px);
+  transform: translateX(200px);
   opacity: 1;
   visibility: visible;
 }
