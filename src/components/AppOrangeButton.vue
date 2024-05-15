@@ -1,16 +1,22 @@
 <script>
-export default {};
+  export default {};
 </script>
 
 <template>
-  <a href="" class="btn btn-primary ms-btn"></a>
+  <a href="#" class="btn btn-primary my-button"></a>
 </template>
 
 <style scoped>
-.ms-btn {
-  background-color: #fc7523;
-  color: white;
-  border: none;
-  border-radius: 0%;
-}
+  .my-button {
+    background-color: #fc7523;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .my-button .my-button:hover {
+    background-color: #e3691f;
+  }
 </style>
