@@ -358,8 +358,9 @@ export default {};
       </div>
     </div>
     <!-- CARD GRANDE  A SINISTRA -->
+    <!-- CONTAINER SX -->
       <div class="row">
-        <div class="col-md-6 mb-3">
+        <div class="col-12 col-sm-6 justify-content-around mb-3">
           <div class="card">
             <img src="../assets/img/sushi.jpg" alt="">
             <div class="card-body">
@@ -381,7 +382,8 @@ export default {};
 
         <!-- PRIMA CARD A DESTRA -->
         
-          <div class="col-md-6">
+          <div class="col-12 col-sm-6">
+            <div class="container">
             <div class="card mb-4">
               <a href="">
                 <img class="img-our-recipe" src="../assets/img/bg-card-recipes.jpg" alt="">
@@ -401,7 +403,7 @@ export default {};
                 <h5><a href="">City Guides Singapore</a></h5>
               </div>
               <a href="" class="btn btn-primary ms-btn">View all City Guides <i class="fa-solid fa-globe"></i></a>
-            
+            </div>
         </div>
       </div>
   </div>
