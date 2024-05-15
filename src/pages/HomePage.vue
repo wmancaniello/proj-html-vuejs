@@ -1,5 +1,10 @@
 <script>
-export default {};
+import AppOrangeButton from '../components/AppOrangeButton.vue';
+export default {
+  components:{
+    AppOrangeButton,
+  }
+};
 </script>
 
 <template>
@@ -250,7 +255,9 @@ export default {};
                 alt="Cheese"
               />
               <div class="card-body text-center">
-                <a href="" class="ms-btn-recipes btn btn-primary w-100">Appetisers</a>
+                <a href="" class="ms-btn-recipes btn btn-primary w-100"
+                  >Appetisers</a
+                >
               </div>
             </div>
           </div>
@@ -262,7 +269,9 @@ export default {};
                 alt="Bakery"
               />
               <div class="card-body text-center">
-                <a href="/" class="ms-btn-recipes btn btn-primary w-100">Bakery</a>
+                <a href="/" class="ms-btn-recipes btn btn-primary w-100"
+                  >Bakery</a
+                >
               </div>
             </div>
           </div>
@@ -274,7 +283,9 @@ export default {};
                 alt="Dinner"
               />
               <div class="card-body text-center">
-                <a href="" class="ms-btn-recipes btn btn-primary w-100">Dinner</a>
+                <a href="" class="ms-btn-recipes btn btn-primary w-100"
+                  >Dinner</a
+                >
               </div>
             </div>
           </div>
@@ -286,7 +297,9 @@ export default {};
                 alt="Drinks"
               />
               <div class="card-body text-center">
-                <a href="" class="ms-btn-recipes btn btn-primary w-100">Drinks</a>
+                <a href="" class="ms-btn-recipes btn btn-primary w-100"
+                  >Drinks</a
+                >
               </div>
             </div>
           </div>
@@ -299,7 +312,9 @@ export default {};
                 alt="healthy"
               />
               <div class="card-body text-center">
-                <a href="" class="ms-btn-recipes btn btn-primary w-100">Healthy</a>
+                <a href="" class="ms-btn-recipes btn btn-primary w-100"
+                  >Healthy</a
+                >
               </div>
             </div>
           </div>
@@ -312,7 +327,9 @@ export default {};
                 alt="quick"
               />
               <div class="card-body text-center">
-                <a href="" class="ms-btn-recipes btn btn-primary w-100">Quick & Easy</a>
+                <a href="" class="ms-btn-recipes btn btn-primary w-100"
+                  >Quick & Easy</a
+                >
               </div>
             </div>
           </div>
@@ -325,7 +342,9 @@ export default {};
                 alt="soup"
               />
               <div class="card-body text-center">
-                <a href="" class="ms-btn-recipes btn btn-primary w-100">Soups</a>
+                <a href="" class="ms-btn-recipes btn btn-primary w-100"
+                  >Soups</a
+                >
               </div>
             </div>
           </div>
@@ -337,7 +356,9 @@ export default {};
                 alt="staff"
               />
               <div class="card-body text-center">
-                <a href="" class="ms-btn-recipes btn btn-primary w-100">Staff Picks</a>
+                <a href="" class="ms-btn-recipes btn btn-primary w-100"
+                  >Staff Picks</a
+                >
               </div>
             </div>
           </div>
@@ -347,65 +368,107 @@ export default {};
   </div>
 
   <!-- FARM TO TABLE -->
-  <div class="container my-5 ">
+  <div class="container my-5">
     <div class="row">
       <div class="col-md-6 text-left">
         <h2>FARM TO TABLE</h2>
-        <p>Aliquam erat volutpat. Ut quis ligula a magna blandit finibus. Suspendisse maximus lacus non nunc lacinia lobortis.</p>
+        <p>
+          Aliquam erat volutpat. Ut quis ligula a magna blandit finibus.
+          Suspendisse maximus lacus non nunc lacinia lobortis.
+        </p>
       </div>
       <div class="col-md-6 text-right">
-        <a href="" class="ms-btn btn btn-primary">READ OUR BLOG <i class="fa-solid fa-book-open-reader"></i></a>
+        <a href="" class="ms-btn btn btn-primary"
+          >READ OUR BLOG <i class="fa-solid fa-book-open-reader"></i
+        ></a>
       </div>
     </div>
     <!-- CARD GRANDE  A SINISTRA -->
     <!-- CONTAINER SX -->
-      <div class="row">
-        <div class="col-12 col-sm-6 justify-content-around mb-3">
-          <div class="card">
-            <img src="../assets/img/sushi.jpg" alt="">
-            <div class="card-body">
-              <h5 class="card-title">
-                Food corner: Top Japanese Restaurants for Sushi
-              </h5>
-              <p class="card-text">
-                Suspendisse at semper odio. Nam fringilla scelerisque
-                  tincidunt. Orci varius natoque penatibus et magnis dis
-                  parturient montes, nascetur ridiculus mus. Donec tincidunt
-                  posuere ornare. Phasellus placerat odio non feugiat
-                  sollicitudin. Integer vitae elementum ex. Sed porttitor, diam
-                  eget convallis volutpat, arcu.
-              </p>
-              <a href="" class="ms-btn-noborder btn btn-primary ms-btn">Read More</a>
-            </div>
+    <div class="row">
+      <div class="col-12 col-sm-6 justify-content-around mb-3">
+        <div class="card">
+          <img src="../assets/img/sushi.jpg" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">
+              Food corner: Top Japanese Restaurants for Sushi
+            </h5>
+            <p class="card-text">
+              Suspendisse at semper odio. Nam fringilla scelerisque tincidunt.
+              Orci varius natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus. Donec tincidunt posuere ornare. Phasellus
+              placerat odio non feugiat sollicitudin. Integer vitae elementum
+              ex. Sed porttitor, diam eget convallis volutpat, arcu.
+            </p>
+            <a href="" class="ms-btn-noborder btn btn-primary ms-btn"
+              >Read More</a
+            >
           </div>
-        </div>
-
-        <!-- PRIMA CARD A DESTRA -->
-        
-          <div class="col-12 col-sm-6">
-            <div class="container">
-            <div class="card mb-4">
-              <a href="">
-                <img class="img-our-recipe" src="../assets/img/bg-card-recipes.jpg" alt="">
-              </a>
-              
-            </div>
-          </div>
-        
-
-<!-- SECONDA CARD A DESTRA -->
-        
-            <div class="card mb-4">
-              <a href="">
-                <img class="" src="../assets/img/singapore.jpg" alt="">
-              </a>
-              <div class="align-items justify-content-center text-center">
-                <h5><a href="">City Guides Singapore</a></h5>
-              </div>
-              <a href="" class="btn btn-primary ms-btn">View all City Guides <i class="fa-solid fa-globe"></i></a>
-            </div>
         </div>
       </div>
+
+      <!-- PRIMA CARD A DESTRA -->
+
+      <div class="col-12 col-sm-6">
+        <div class="container">
+          <div class="card mb-4">
+            <a href="">
+              <img
+                class="img-our-recipe"
+                src="../assets/img/bg-card-recipes.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+
+        <!-- SECONDA CARD A DESTRA -->
+
+        <div class="card mb-4">
+          <a href="">
+            <img class="" src="../assets/img/singapore.jpg" alt="" />
+          </a>
+          <div class="align-items justify-content-center text-center">
+            <h5><a href="">City Guides Singapore</a></h5>
+          </div>
+          <a href="" class="btn btn-primary ms-btn"
+            >View all City Guides <i class="fa-solid fa-globe"></i
+          ></a>
+        </div>
+        <hr />
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default"
+              ><i class="fa-solid fa-magnifying-glass"></i></span
+            >
+          </div>
+          <input
+            type="text"
+            class="form-control"
+            aria-label="Search"
+            placeholder="Search"
+            aria-describedby="inputGroup-sizing-default"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- CONTAINER FINALE CON BAKGROUND -->
+  <div class="container last-bg">
+    <div class="container text-center">
+      <h1>Subscribe <span class="text-orange">&</span> Receive A Free eBook</h1>
+      <p>Aliquam erat volutpat. Ut quis ligula a magna blandit finibus. Suspendisse maximus lacus non nunc lacinia lobortis.</p>
+      <div class="input-group mb-3">
+  <input type="email" class="form-control" placeholder="Insert your email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <span class="input-group-text" id="basic-addon2">@email.com</span>
+  </div>
+</div>
+<AppOrangeButton text="Subscribe" />
+    </div>
+
   </div>
 </template>
 
@@ -455,7 +518,7 @@ a {
 /* GRIGLIA CON CARD */
 .ms-btn,
 .ms-btn-home,
-.ms-btn-recipes{
+.ms-btn-recipes {
   background-color: #fc7523;
   color: white;
   border: none;
@@ -471,16 +534,29 @@ a {
   width: 75%;
 }
 
-/*FARM TABLE*/ 
-.ms-btn-noborder{
+/*FARM TABLE*/
+.ms-btn-noborder {
   border: none;
   background-color: #ffff;
   color: black;
 }
-.ms-btn-noborder:hover{
+.ms-btn-noborder:hover {
   border-bottom: 1px solid black;
 }
-.img-our-recipe{
-  width:70%;
+.img-our-recipe {
+  width: 70%;
+}
+
+.last-bg{
+  background-image: url(../assets/img/HomePage-bg.png);
+  background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 100px;
+
+        .text-orange{
+          color:#fc7523 ;
+        }
+        
 }
 </style>
