@@ -1,9 +1,11 @@
 <script>
-import AppOrangeButton from '../components/AppOrangeButton.vue';
+import AppOrangeButton from "../components/AppOrangeButton.vue";
+import AppIconsSocial from "../components/AppIconsSocial.vue";
 export default {
-  components:{
+  components: {
     AppOrangeButton,
-  }
+    AppIconsSocial,
+  },
 };
 </script>
 
@@ -439,8 +441,8 @@ export default {
         <div class="input-group mb-3">
           <div class="input-group-prepend">
             <span class="input-group-text" id="inputGroup-sizing-default"
-              ><i class="fa-solid fa-magnifying-glass"></i></span
-            >
+              ><button class="btn-search"><i class="fa-solid fa-magnifying-glass"></i
+            ></button></span>
           </div>
           <input
             type="text"
@@ -450,25 +452,66 @@ export default {
             aria-describedby="inputGroup-sizing-default"
           />
         </div>
+        <div>
+          <AppIconsSocial />
+        </div>
+        <div class="btn-group my-4" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-lg btn-outline-dark">Popular</button>
+          <button type="button" class="btn btn-lg btn-outline-dark">Recent</button>
+        </div>
+        <div class="container p-2 d-flex">
+          <div class="ms-img">
+            <img class="ms-img-rounded" src="../assets/img/sushi.jpg" alt="">
+          </div>
+          <div>
+            <h6>Food Corner: Top Japanese Restaurants for Sushi</h6>
+            <p>March 25th, 2019</p>
+          </div>
+        </div>
+        <div class="container p-2 d-flex">
+          <div class="ms-img">
+            <img class="ms-img-rounded" src="../assets/img/riso.jpg" alt="">
+          </div>
+          <div>
+            <h6>Roundup: My new Favourite Recipes For Healthy Living</h6>
+            <p>March 25th, 2019</p>
+          </div>
+        </div>
+        <div class="container p-2 d-flex">
+          <div class="ms-img">
+            <img class="ms-img-rounded" src="../assets/img/kimchi.jpg" alt="">
+          </div>
+          <div>
+            <h6>Meal Prep: Korean Bibimbap with Kimchi</h6>
+            <p>March 25th, 2019</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
 
   <!-- CONTAINER FINALE CON BAKGROUND -->
   <div class="container last-bg">
     <div class="container text-center">
       <h1>Subscribe <span class="text-orange">&</span> Receive A Free eBook</h1>
-      <p>Aliquam erat volutpat. Ut quis ligula a magna blandit finibus. Suspendisse maximus lacus non nunc lacinia lobortis.</p>
+      <p>
+        Aliquam erat volutpat. Ut quis ligula a magna blandit finibus.
+        Suspendisse maximus lacus non nunc lacinia lobortis.
+      </p>
       <div class="input-group mb-3">
-  <input type="email" class="form-control" placeholder="Insert your email" aria-label="Recipient's username" aria-describedby="basic-addon2">
-  <div class="input-group-append">
-    <span class="input-group-text" id="basic-addon2">@email.com</span>
-  </div>
-</div>
-<AppOrangeButton text="Subscribe" />
+        <input
+          type="email"
+          class="form-control"
+          placeholder="Insert your email"
+          aria-label="Recipient's username"
+          aria-describedby="basic-addon2"
+        />
+        <div class="input-group-append">
+          <span class="input-group-text" id="basic-addon2">@email.com</span>
+        </div>
+      </div>
+      <AppOrangeButton text="Subscribe" />
     </div>
-
   </div>
 </template>
 
@@ -547,16 +590,37 @@ a {
   width: 70%;
 }
 
-.last-bg{
+/*ROUNDED IMG */
+.ms-img{
+  display: flex;
+  justify-content: left;
+  text-align: left;
+
+  .ms-img-rounded{
+    position: relative;
+  display: block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  }
+}
+
+/*LAST PART HOMEPAGE */
+.last-bg {
   background-image: url(../assets/img/HomePage-bg.png);
   background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px;
 
-        .text-orange{
-          color:#fc7523 ;
-        }
-        
+  .text-orange {
+    color: #fc7523;
+  }
+}
+
+.btn-search{
+  border: none;
+  background-color: #ffff;
+  color: lightgray;
 }
 </style>
