@@ -1,6 +1,6 @@
 <script>
 import AppIconsSocial from "../components/AppIconsSocial.vue";
-import AppOrangeButton from "../components/AppOrangeButton.vue"
+import AppOrangeButton from "../components/AppOrangeButton.vue";
 
 export default {
   components: {
@@ -28,7 +28,7 @@ export default {
         class="col-12 col-sm-6 ms_bg-dx d-flex flex-column justify-content-around inner"
       >
         <!-- Office Section -->
-        <div class="container bg_white mt-2 d-flex p-4 gap-4">
+        <div class="container col-md-8 bg_white mt-2 d-flex p-4 gap-4">
           <div class="ms_icon">
             <i class="fas fa-map-marker-alt"></i>
           </div>
@@ -40,7 +40,7 @@ export default {
         <!-- /Office Section -->
 
         <!-- Contact Section -->
-        <div class="container bg_white mt-2 d-flex p-4 gap-4">
+        <div class="container col-md-8 bg_white mt-2 d-flex p-4 gap-4">
           <div class="ms_icon">
             <i class="fas fa-phone-alt"></i>
           </div>
@@ -52,7 +52,7 @@ export default {
         <!-- /Contact Section -->
 
         <!-- Hours Section -->
-        <div class="container bg_white mt-2 d-flex p-4 gap-4">
+        <div class="container col-md-8 bg_white mt-2 d-flex p-4 gap-4">
           <div class="ms_icon">
             <i class="fas fa-clock"></i>
           </div>
@@ -75,17 +75,19 @@ export default {
       <div class="col-12 col-sm-6">
         <!-- Intestazione Form -->
         <div class="container mt-5 p-5">
-          <h6>GET IN TOUCH</h6>
-          <p style="color: #67615a">
-            Integer sem velit, bibendum nec lectus sit amet, efficitur mollis
-            mauris. Orci varius natoque penatibus et magnis dis parturient
-            montes, nascetur ridiculus mus. Donec nisl dui, accumsan vel aliquet
-            nec, blandit in nisi.
-          </p>
-
+          <div class="col-md-10">
+            <h6>GET IN TOUCH</h6>
+            <p style="color: #67615a">
+              Integer sem velit, bibendum nec lectus sit amet, efficitur mollis
+              mauris. Orci varius natoque penatibus et magnis dis parturient
+              montes, nascetur ridiculus mus. Donec nisl dui, accumsan vel
+              aliquet nec, blandit in nisi.
+            </p>
+          </div>
+          
           <!-- Form -->
           <form class="row g-3">
-            <div class="col-md-8">
+            <div class="col-md-10">
               <label for="name" class="form-label">Your name *..</label>
               <input
                 type="text"
@@ -95,8 +97,8 @@ export default {
                 required
               />
             </div>
-            <div class="col-md-8">
-              <label for="emailInfo" class="form-label">E-mail*</label>
+            <div class="col-md-10">
+              <label for="emailInfo" class="form-label">E-mail*..</label>
               <input
                 type="email"
                 class="form-control"
@@ -105,8 +107,8 @@ export default {
                 required
               />
             </div>
-            <div class="col-md-8">
-              <label for="subject" class="form-label">Subject*</label>
+            <div class="col-md-10">
+              <label for="subject" class="form-label">Subject*..</label>
               <input
                 type="text"
                 class="form-control"
@@ -115,14 +117,22 @@ export default {
                 required
               />
             </div>
-            <div class="col-md-8">
-              <label for="message" class="form-label">Your message*</label>
+            <div class="col-md-10">
+              <label for="message" class="form-label">Your message*..</label>
               <textarea
                 class="form-control"
                 id="message"
-                rows="3"
+                rows="5"
                 placeholder="Type your message here..."
               ></textarea>
+              <div class="mt-4">
+                <AppOrangeButton class="my-4" text="SEND MESSAGE" />
+                <p class="small">
+                  We always try to reply as soon as possible. Phasellus eget
+                  urna egestas, tincidunt augue at, posuere elit. Donec mi diam,
+                  viverra id imperdiet vitae, ornare nec metus.
+                </p>
+              </div>
             </div>
           </form>
           <!-- /Form -->
@@ -141,7 +151,7 @@ export default {
         For privacy reasons Google Maps needs your permission to be loaded.
       </p>
       <div>
-        <AppOrangeButton text="I ACCEPT"/>
+        <AppOrangeButton text="I ACCEPT" />
       </div>
     </div>
     <!--  -->
@@ -175,12 +185,11 @@ export default {
 }
 
 .ms_height {
-    height: 350px;
+  height: 350px;
 }
 
 .bg_white {
   background-color: #fff;
-  width: 60%;
 }
 
 .bg_grey {
@@ -189,7 +198,7 @@ export default {
 
 .inner {
   position: relative;
-  top: -60px;
+  top: -66px;
 }
 
 /* Icon Hover */

@@ -111,14 +111,6 @@ export default {
             </router-link>
           </li>
         </ul>
-
-        <!-- <ul class="list-unstyled">
-          <li v-for="item in menu" :key="item" class="mb-3">
-            <router-link :to="{ name: item.routeName }" class="ms_router-link">
-              {{ item.title }}
-            </router-link>
-          </li>
-        </ul> -->
       </div>
       <!-- /Section 2 -->
 
@@ -202,6 +194,11 @@ export default {
 
 .ms_copy {
   font-size: 0.75em;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .ms_footer {
@@ -250,7 +247,7 @@ export default {
   top: 0;
   left: 0;
   position: absolute;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(250, 146, 0, 0.485);
   display: flex;
   justify-content: center;
   align-items: center;
