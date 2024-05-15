@@ -568,7 +568,7 @@
 
 
     .we-are-hiring-section {
-        background-image: url("../assets/img/your-background-image.png");
+        background-image: url("../assets/img/Avada-AboutUs-Background.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
