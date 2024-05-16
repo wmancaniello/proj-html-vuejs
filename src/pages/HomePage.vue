@@ -41,7 +41,6 @@ export default {
       ],
     };
   },
-  
 };
 </script>
 
@@ -156,23 +155,24 @@ export default {
                   sollicitudin. Integer vitae elementum ex. Sed porttitor, diam
                   eget convallis volutpat, arcu.
                 </p>
-                <a href="" class="btn btn-primary ms-btn">Learn More</a>
+                <!-- <a href="" class="btn btn-primary ms-btn">Learn More</a> -->
+                <AppOrangeButton text="Learn More" />
               </div>
             </div>
           </div>
 
-          <AppCards :cardsArray="cardsArray"/>
+          <AppCards :cardsArray="cardsArray" />
           <!-- Colonna destra con le 6 card divise su tre righe -->
           <!-- <div class="col-md-6">
             <!-- Prima riga di card -->
-            <!-- <div class="row">
+          <!-- <div class="row">
               <div class="col-md-6 mb-3">
                 <div class="card">
                   <a href="">
                     <img class="ms-img" src="../assets/img/banana.jpg" alt="" />
                   </a> -->
-                  <!-- Contenuto della prima card -->
-                  <!-- <div class="card-body">
+          <!-- Contenuto della prima card -->
+          <!-- <div class="card-body">
                     <h5 class="card-title">
                       Fruit Platter with Banana, Mango, Berries and Orange
                     </h5>
@@ -188,8 +188,8 @@ export default {
                       alt=""
                     />
                   </a> -->
-                  <!-- Contenuto della seconda card -->
-                  <!-- <div class="card-body">
+          <!-- Contenuto della seconda card -->
+          <!-- <div class="card-body">
                     <h5 class="card-title">
                       Breakfast Delight With Strawberry, Egg and Fruit
                     </h5>
@@ -197,8 +197,8 @@ export default {
                 </div>
               </div>
             </div> -->
-            <!-- Seconda riga di card -->
-            <!-- <div class="row">
+          <!-- Seconda riga di card -->
+          <!-- <div class="row">
               <div class="col-md-6 mb-3">
                 <div class="card">
                   <a href="">
@@ -208,8 +208,8 @@ export default {
                       alt=""
                     />
                   </a> -->
-                  <!-- Contenuto della terza card -->
-                  <!-- <div class="card-body">
+          <!-- Contenuto della terza card -->
+          <!-- <div class="card-body">
                     <h5 class="card-title">
                       Ice Cream Heaven With Vanilla, Chocolate and Pistachio
                     </h5>
@@ -225,8 +225,8 @@ export default {
                       alt=""
                     />
                   </a> -->
-                  <!-- Contenuto della quarta card -->
-                  <!-- <div class="card-body">
+          <!-- Contenuto della quarta card -->
+          <!-- <div class="card-body">
                     <h5 class="card-title">
                       Video Recipe: How to make a Summer Drink Cool
                     </h5>
@@ -234,8 +234,8 @@ export default {
                 </div>
               </div>
             </div> -->
-            <!-- Terza riga di card -->
-            <!-- <div class="row">
+          <!-- Terza riga di card -->
+          <!-- <div class="row">
               <div class="col-md-6 mb-3">
                 <div class="card">
                   <a href="">
@@ -246,8 +246,8 @@ export default {
                     />
                   </a> -->
 
-                  <!-- Contenuto della quinta card -->
-                  <!-- <div class="card-body">
+          <!-- Contenuto della quinta card -->
+          <!-- <div class="card-body">
                     <h5 class="card-title">
                       Ketogenic Diet Recipe with Avocado
                     </h5>
@@ -259,8 +259,8 @@ export default {
                   <a href="">
                     <img class="ms-img" src="../assets/img/drink.jpg" alt="" />
                   </a> -->
-                  <!-- Contenuto della sesta card -->
-                  <!-- <div class="card-body">
+          <!-- Contenuto della sesta card -->
+          <!-- <div class="card-body">
                     <h5 class="card-title">
                       Video Recipe: The perfect Cosmopolitan
                     </h5>
@@ -425,7 +425,7 @@ export default {
     <!-- CARD GRANDE  A SINISTRA -->
     <!-- CONTAINER SX -->
     <div class="row">
-      <div class="col-12 col-sm-6 justify-content-around mb-3">
+      <div class="col-md-6 col-sm-6 justify-content-around mb-3">
         <div class="card">
           <img src="../assets/img/sushi.jpg" alt="" />
           <div class="card-body">
@@ -444,13 +444,16 @@ export default {
             >
           </div>
         </div>
+        <div class="col-12 my-5">
+          <AppCards :cardsArray="cardsArray" />
+        </div>
       </div>
 
       <!-- PRIMA CARD A DESTRA -->
 
-      <div class="col-12 col-sm-6">
-        <div class="container">
-          <div class="card mb-4">
+      <div class="col-md-6 col-sm-6">
+        <div class="container col-6">
+          <div class="card ms_image mb-4">
             <a href="">
               <img
                 class="img-our-recipe"
@@ -462,65 +465,81 @@ export default {
         </div>
 
         <!-- SECONDA CARD A DESTRA -->
+        <div class="container col-6">
+          <div class="card ms_image mb-4">
+            <a href="">
+              <img class="" src="../assets/img/singapore.jpg" alt="" />
+            </a>
+            <div class="align-items justify-content-center text-center">
+              <h5><a href="">City Guides Singapore</a></h5>
+            </div>
+            <a href="" class="btn btn-primary ms-btn"
+              >View all City Guides <i class="fa-solid fa-globe"></i
+            ></a>
+          </div>
 
-        <div class="card mb-4">
-          <a href="">
-            <img class="" src="../assets/img/singapore.jpg" alt="" />
-          </a>
-          <div class="align-items justify-content-center text-center">
-            <h5><a href="">City Guides Singapore</a></h5>
-          </div>
-          <a href="" class="btn btn-primary ms-btn"
-            >View all City Guides <i class="fa-solid fa-globe"></i
-          ></a>
-        </div>
-        <hr />
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="inputGroup-sizing-default"
-              ><button class="btn-search"><i class="fa-solid fa-magnifying-glass"></i
-            ></button></span>
-          </div>
-          <input
-            type="text"
-            class="form-control"
-            aria-label="Search"
-            placeholder="Search"
-            aria-describedby="inputGroup-sizing-default"
-          />
-        </div>
-        <div>
-          <AppIconsSocial />
-        </div>
-        <div class="btn-group my-4" role="group" aria-label="Basic example">
-          <button type="button" class="btn btn-lg btn-outline-dark">Popular</button>
-          <button type="button" class="btn btn-lg btn-outline-dark">Recent</button>
-        </div>
-        <div class="container p-2 d-flex">
-          <div class="ms-img">
-            <img class="ms-img-rounded" src="../assets/img/sushi.jpg" alt="">
+          <hr />
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-default"
+                ><button class="btn-search">
+                  <i class="fa-solid fa-magnifying-glass"></i></button
+              ></span>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Search"
+              placeholder="Search"
+              aria-describedby="inputGroup-sizing-default"
+            />
           </div>
           <div>
-            <h6>Food Corner: Top Japanese Restaurants for Sushi</h6>
-            <p>March 25th, 2019</p>
+            <AppIconsSocial />
           </div>
-        </div>
-        <div class="container p-2 d-flex">
-          <div class="ms-img">
-            <img class="ms-img-rounded" src="../assets/img/riso.jpg" alt="">
+          <div class="btn-group my-4" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-lg btn-outline-dark">
+              Popular
+            </button>
+            <button type="button" class="btn btn-lg btn-outline-dark">
+              Recent
+            </button>
           </div>
-          <div>
-            <h6>Roundup: My new Favourite Recipes For Healthy Living</h6>
-            <p>March 25th, 2019</p>
+          <div class="container p-2 d-flex">
+            <div class="ms-img">
+              <img
+                class="ms-img-rounded"
+                src="../assets/img/sushi.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Food Corner: Top Japanese Restaurants for Sushi</h6>
+              <p>March 25th, 2019</p>
+            </div>
           </div>
-        </div>
-        <div class="container p-2 d-flex">
-          <div class="ms-img">
-            <img class="ms-img-rounded" src="../assets/img/kimchi.jpg" alt="">
+          <div class="container p-2 d-flex">
+            <div class="ms-img">
+              <img class="ms-img-rounded" src="../assets/img/riso.jpg" alt="" />
+            </div>
+            <div>
+              <h6>Roundup: My new Favourite Recipes For Healthy Living</h6>
+              <p>March 25th, 2019</p>
+            </div>
           </div>
-          <div>
-            <h6>Meal Prep: Korean Bibimbap with Kimchi</h6>
-            <p>March 25th, 2019</p>
+          <div class="container p-2 d-flex">
+            <div class="ms-img">
+              <img
+                class="ms-img-rounded"
+                src="../assets/img/kimchi.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <h6>Meal Prep: Korean Bibimbap with Kimchi</h6>
+              <p>March 25th, 2019</p>
+            </div>
           </div>
         </div>
       </div>
@@ -623,22 +642,32 @@ a {
 .ms-btn-noborder:hover {
   border-bottom: 1px solid black;
 }
-.img-our-recipe {
-  width: 70%;
+// .img-our-recipe {
+//   width: 70%;
+// }
+
+.ms_image {
+  position: relative;
+
+  img {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
 }
 
 /*ROUNDED IMG */
-.ms-img{
+.ms-img {
   display: flex;
   justify-content: left;
   text-align: left;
 
-  .ms-img-rounded{
+  .ms-img-rounded {
     position: relative;
-  display: block;
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
   }
 }
 
@@ -655,7 +684,7 @@ a {
   }
 }
 
-.btn-search{
+.btn-search {
   border: none;
   background-color: #ffff;
   color: lightgray;
