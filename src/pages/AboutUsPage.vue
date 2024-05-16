@@ -117,7 +117,7 @@
             </div>
         </div>
 
-        <!------------------ ACHIEVEMENTS ------------------>
+        <!-- ------------------ ACHIEVEMENTS ------------------>
         <div class="achievements-section my-5">
             <div class="container">
                 <h5 class="text-center mb-3">OUR ACHIEVEMENTS</h5>
@@ -125,8 +125,8 @@
                     ante. Sed quis luctus eros. Phasellus rutrum laoreet leo in consequat.</p>
                 <div class="row text-center">
                     <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="../assets/img/achievment-1.jpg" class="card-img-top" alt="Award">
+                        <div class="card my-hover-card">
+                            <img src="../assets/img/achievment-1.jpg" class="card-img-top my-hover-img" alt="Award">
                             <div class="card-body">
                                 <h5 class="card-title">Best Food Blog of 2018</h5>
                                 <p class="card-text">Praesent quam magna, varius in laoreet in, condimentum at augue.
@@ -135,8 +135,8 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="../assets/img/achievment-2.jpg" class="card-img-top" alt="Trophy">
+                        <div class="card my-hover-card">
+                            <img src="../assets/img/achievment-2.jpg" class="card-img-top my-hover-img" alt="Trophy">
                             <div class="card-body">
                                 <h5 class="card-title">Break-Through Recipe #1</h5>
                                 <p class="card-text">Praesent quam magna, varius in laoreet in, condimentum at augue.
@@ -145,38 +145,14 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="../assets/img/achievment-3.jpg" class="card-img-top" alt="Waffle">
+                        <div class="card my-hover-card">
+                            <img src="../assets/img/achievment-3.jpg" class="card-img-top my-hover-img" alt="Waffle">
                             <div class="card-body">
                                 <h5 class="card-title">Best Food Blog of 2018</h5>
                                 <p class="card-text">Praesent quam magna, varius in laoreet in, condimentum at augue.
                                     Suspendisse viverra scelerisque lacus.</p>
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <!------------------ Sezione con statistiche ------------------>
-                <div class="row text-center mt-5">
-                    <div class="col-md-2 offset-md-1">
-                        <h3>89</h3>
-                        <p>Unique Recipes</p>
-                    </div>
-                    <div class="col-md-2">
-                        <h3>35</h3>
-                        <p>Online Courses</p>
-                    </div>
-                    <div class="col-md-2">
-                        <h3>500K</h3>
-                        <p>Monthly Pageviews</p>
-                    </div>
-                    <div class="col-md-2">
-                        <h3>17</h3>
-                        <p>Books Published</p>
-                    </div>
-                    <div class="col-md-2">
-                        <h3>31</h3>
-                        <p>Chef Interviews</p>
                     </div>
                 </div>
             </div>
@@ -433,6 +409,23 @@
         border: none;
     }
 
+    /* ------------------------------ HOVER ------------------------------ */
+
+    .my-hover-card {
+        overflow: hidden;
+    }
+
+    .my-hover-img {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .my-hover-card:hover .my-hover-img {
+        transform: scale(1.1);
+    }
+
+    /* ------------------------------ HOVER end------------------------------ */
+
+
     .card-title {
         font-family: 'Playfair Display', serif;
         font-size: 1.25rem;
@@ -497,7 +490,7 @@
     }
 
     /* ------------------------------ Sezione We Are Hiring ----------------------------------------------- */
-    
+
     .we-are-hiring-section {
         background-image: url("../assets/img/Avada-AboutUs-Background.png");
         background-size: cover;
