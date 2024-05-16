@@ -549,7 +549,7 @@ export default {
   </div>
 
   <!-- CONTAINER FINALE CON BAKGROUND -->
-  <div class="container last-bg">
+  <div class="last-bg">
     <div class="container text-center">
       <h1>Subscribe <span class="text-orange">&</span> Receive A Free eBook</h1>
       <p>
@@ -639,6 +639,10 @@ a {
     display: block;
     margin: auto;
   }
+}
+
+.card-img-top{
+  width: 100%;
 }
 
 /*FARM TABLE*/
