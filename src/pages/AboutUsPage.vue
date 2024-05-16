@@ -24,29 +24,53 @@
                 <!-- Colonna di sinistra con la griglia di immagini -->
                 <div class="col-md-6 inner">
                     <div class="row g-0">
-                        <div class="col-6">
-                            <img src="../assets/img/banana.jpg" alt="Image 1" class="img-fluid">
+                        <div class="col-6 my-hover-card">
+                            <div class="img-container">
+
+                                <img src="../assets/img/banana.jpg" alt="Image 1" class="img-fluid my-hover-img">
+                            </div>
                         </div>
-                        <div class="col-6">
-                            <img src="../assets/img/beans.jpg" alt="Image 2" class="img-fluid">
+                        <div class="col-6 my-hover-card">
+                            <div class="img-container">
+
+                                <img src="../assets/img/beans.jpg" alt="Image 2" class="img-fluid my-hover-img">
+                            </div>
                         </div>
-                        <div class="col-6">
-                            <img src="../assets/img/kimchi.jpg" alt="Image 3" class="img-fluid">
+                        <div class="col-6 my-hover-card">
+                            <div class="img-container">
+
+                                <img src="../assets/img/kimchi.jpg" alt="Image 3" class="img-fluid my-hover-img">
+                            </div>
                         </div>
-                        <div class="col-6">
-                            <img src="../assets/img/egg-fruit.jpg" alt="Image 4" class="img-fluid">
+                        <div class="col-6 my-hover-card">
+                            <div class="img-container">
+
+                                <img src="../assets/img/egg-fruit.jpg" alt="Image 4" class="img-fluid my-hover-img">
+                            </div>
                         </div>
-                        <div class="col-6">
-                            <img src="../assets/img/ice-cream.jpg" alt="Image 5" class="img-fluid">
+                        <div class="col-6 my-hover-card">
+                            <div class="img-container">
+
+                                <img src="../assets/img/ice-cream.jpg" alt="Image 5" class="img-fluid my-hover-img">
+                            </div>
                         </div>
-                        <div class="col-6">
-                            <img src="../assets/img/sushi.jpg" alt="Image 6" class="img-fluid">
+                        <div class="col-6 my-hover-card">
+                            <div class="img-container">
+
+                                <img src="../assets/img/sushi.jpg" alt="Image 6" class="img-fluid my-hover-img">
+                            </div>
                         </div>
-                        <div class="col-6">
-                            <img src="../assets/img/drink.jpg" alt="Image 7" class="img-fluid">
+                        <div class="col-6 my-hover-card">
+                            <div class="img-container">
+
+                                <img src="../assets/img/drink.jpg" alt="Image 7" class="img-fluid my-hover-img">
+                            </div>
                         </div>
-                        <div class="col-6">
-                            <img src="../assets/img/kimchi.jpg" alt="Image 8" class="img-fluid">
+                        <div class="col-6 my-hover-card">
+                            <div class="img-container">
+
+                                <img src="../assets/img/kimchi.jpg" alt="Image 8" class="img-fluid my-hover-img">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -117,6 +141,7 @@
             </div>
         </div>
 
+
         <!-- ------------------ ACHIEVEMENTS ------------------>
         <div class="achievements-section my-5">
             <div class="container">
@@ -126,7 +151,9 @@
                 <div class="row text-center">
                     <div class="col-md-4 mb-4">
                         <div class="card my-hover-card">
-                            <img src="../assets/img/achievment-1.jpg" class="card-img-top my-hover-img" alt="Award">
+                            <div class="img-container">
+                                <img src="../assets/img/achievment-1.jpg" class="card-img-top my-hover-img" alt="Award">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">Best Food Blog of 2018</h5>
                                 <p class="card-text">Praesent quam magna, varius in laoreet in, condimentum at augue.
@@ -136,7 +163,10 @@
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card my-hover-card">
-                            <img src="../assets/img/achievment-2.jpg" class="card-img-top my-hover-img" alt="Trophy">
+                            <div class="img-container">
+                                <img src="../assets/img/achievment-2.jpg" class="card-img-top my-hover-img"
+                                    alt="Trophy">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">Break-Through Recipe #1</h5>
                                 <p class="card-text">Praesent quam magna, varius in laoreet in, condimentum at augue.
@@ -146,7 +176,10 @@
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card my-hover-card">
-                            <img src="../assets/img/achievment-3.jpg" class="card-img-top my-hover-img" alt="Waffle">
+                            <div class="img-container">
+                                <img src="../assets/img/achievment-3.jpg" class="card-img-top my-hover-img"
+                                    alt="Waffle">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">Best Food Blog of 2018</h5>
                                 <p class="card-text">Praesent quam magna, varius in laoreet in, condimentum at augue.
@@ -219,7 +252,11 @@
                 <div class="row text-center">
                     <div class="col-md-4 mb-4">
                         <div class="card my-hover-card">
-                            <img src="../assets/img/Wayne-Barnett.jpg" class="card-img-top my-hover-img" alt="Wayne Barnett">
+                            <div class="img-container">
+
+                                <img src="../assets/img/Wayne-Barnett.jpg" class="card-img-top my-hover-img"
+                                    alt="Wayne Barnett">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">Wayne Barnett</h5>
                                 <p class="card-text">Founder & CEO</p>
@@ -228,7 +265,11 @@
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card my-hover-card">
-                            <img src="../assets/img/Angela-Caroll.jpg" class="card-img-top my-hover-img" alt="Angela Caroll">
+                            <div class="img-container">
+
+                                <img src="../assets/img/Angela-Caroll.jpg" class="card-img-top my-hover-img"
+                                    alt="Angela Caroll">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">Angela Caroll</h5>
                                 <p class="card-text">Chief Editor</p>
@@ -237,7 +278,11 @@
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card my-hover-card">
-                            <img src="../assets/img/Walter-Gordon.jpg" class="card-img-top my-hover-img" alt="Walter Gordon">
+                            <div class="img-container">
+
+                                <img src="../assets/img/Walter-Gordon.jpg" class="card-img-top my-hover-img"
+                                    alt="Walter Gordon">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">Walter Gordon</h5>
                                 <p class="card-text">Head of Recipes</p>
@@ -248,7 +293,11 @@
                 <div class="row text-center">
                     <div class="col-md-4 mb-4">
                         <div class="card my-hover-card">
-                            <img src="../assets/img/Angela-Lopez.jpg" class="card-img-top my-hover-img" alt="Angela Lopez">
+                            <div class="img-container">
+
+                                <img src="../assets/img/Angela-Lopez.jpg" class="card-img-top my-hover-img"
+                                    alt="Angela Lopez">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">Angela Lopez</h5>
                                 <p class="card-text">Junior Chef</p>
@@ -257,7 +306,11 @@
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card my-hover-card">
-                            <img src="../assets/img/Scott-Estrada.jpg" class="card-img-top my-hover-img" alt="Scott Estrada">
+                            <div class="img-container">
+
+                                <img src="../assets/img/Scott-Estrada.jpg" class="card-img-top my-hover-img"
+                                    alt="Scott Estrada">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">Scott Estrada</h5>
                                 <p class="card-text">Developer</p>
@@ -266,7 +319,11 @@
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card my-hover-card">
-                            <img src="../assets/img/Barbara-Ramos.jpg" class="card-img-top my-hover-img" alt="Barbara Ramos">
+                            <div class="img-container">
+
+                                <img src="../assets/img/Barbara-Ramos.jpg" class="card-img-top my-hover-img"
+                                    alt="Barbara Ramos">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">Barbara Ramos</h5>
                                 <p class="card-text">Graphic Designer</p>
@@ -320,12 +377,35 @@
         color: #666;
         margin-bottom: 20px;
     }
-
+    
     a {
         text-decoration: none;
         color: black;
     }
+    
+    /* ------------------------------ HOVER ------------------------------ */
 
+    .my-hover-card {
+        overflow: hidden;
+    }
+
+    .img-container {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .my-hover-img {
+        transition: transform 0.3s ease-in-out;
+        width: 100%;
+        height: auto;
+    }
+
+    .img-container:hover .my-hover-img {
+        transform: scale(1.1);
+    }
+
+    /* ------------------------------ HOVER end------------------------------ */
+    
     /* ------------------------------ SEZIONE HERO -------------------------------- */
     .hero-section {
         position: relative;
@@ -407,23 +487,11 @@
 
     .card {
         border: none;
-    }
-
-    /* ------------------------------ HOVER ------------------------------ */
-
-    .my-hover-card {
         overflow: hidden;
+
     }
 
-    .my-hover-img {
-        transition: transform 0.3s ease-in-out;
-    }
 
-    .my-hover-card:hover .my-hover-img {
-        transform: scale(1.1);
-    }
-
-    /* ------------------------------ HOVER end------------------------------ */
 
 
     .card-title {
