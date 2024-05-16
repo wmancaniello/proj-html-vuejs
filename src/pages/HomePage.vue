@@ -701,4 +701,46 @@ a {
   background-color: #ffff;
   color: lightgray;
 }
+
+
+    /* ------------------------------ HOVER ------------------------------ */
+
+    .my-hover-card {
+        overflow: hidden;
+    }
+
+    .img-container {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .my-hover-img {
+        transition: transform 0.6s ease-in-out;
+        width: 100%;
+        height: auto;
+    }
+
+    .img-container:hover .my-hover-img {
+        transform: scale(1.1);
+    }
+
+    .img-container-hero::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(250, 146, 0, 0.485);
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .img-container-hero:hover::after {
+        opacity: 1;
+        transition: 1s;
+    }
+
+    /* ------------------------------ HOVER end------------------------------ */
+
 </style>
