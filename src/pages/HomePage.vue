@@ -1,10 +1,15 @@
 <script>
 import AppOrangeButton from "../components/AppOrangeButton.vue";
 import AppIconsSocial from "../components/AppIconsSocial.vue";
+import AppCards from "../components/AppCards.vue";
+import AppCardsList from "../components/AppCardsList.vue";
+
 export default {
   components: {
     AppOrangeButton,
     AppIconsSocial,
+    AppCardsList,
+    AppCards,
   },
 };
 </script>
@@ -125,17 +130,18 @@ export default {
             </div>
           </div>
 
+          <AppCards :cardsArray="cardsArray"/>
           <!-- Colonna destra con le 6 card divise su tre righe -->
-          <div class="col-md-6">
+          <!-- <div class="col-md-6">
             <!-- Prima riga di card -->
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-md-6 mb-3">
                 <div class="card">
                   <a href="">
                     <img class="ms-img" src="../assets/img/banana.jpg" alt="" />
-                  </a>
+                  </a> -->
                   <!-- Contenuto della prima card -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <h5 class="card-title">
                       Fruit Platter with Banana, Mango, Berries and Orange
                     </h5>
@@ -150,18 +156,18 @@ export default {
                       src="../assets/img/egg-fruit.jpg"
                       alt=""
                     />
-                  </a>
+                  </a> -->
                   <!-- Contenuto della seconda card -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <h5 class="card-title">
                       Breakfast Delight With Strawberry, Egg and Fruit
                     </h5>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
             <!-- Seconda riga di card -->
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-md-6 mb-3">
                 <div class="card">
                   <a href="">
@@ -170,9 +176,9 @@ export default {
                       src="../assets/img/ice-cream.jpg"
                       alt=""
                     />
-                  </a>
+                  </a> -->
                   <!-- Contenuto della terza card -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <h5 class="card-title">
                       Ice Cream Heaven With Vanilla, Chocolate and Pistachio
                     </h5>
@@ -187,18 +193,18 @@ export default {
                       src="../assets/img/summer-drink.jpg"
                       alt=""
                     />
-                  </a>
+                  </a> -->
                   <!-- Contenuto della quarta card -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <h5 class="card-title">
                       Video Recipe: How to make a Summer Drink Cool
                     </h5>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
             <!-- Terza riga di card -->
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-md-6 mb-3">
                 <div class="card">
                   <a href="">
@@ -207,10 +213,10 @@ export default {
                       src="../assets/img/fruit-vegetables.jpg"
                       alt=""
                     />
-                  </a>
+                  </a> -->
 
                   <!-- Contenuto della quinta card -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <h5 class="card-title">
                       Ketogenic Diet Recipe with Avocado
                     </h5>
@@ -221,9 +227,9 @@ export default {
                 <div class="card">
                   <a href="">
                     <img class="ms-img" src="../assets/img/drink.jpg" alt="" />
-                  </a>
+                  </a> -->
                   <!-- Contenuto della sesta card -->
-                  <div class="card-body">
+                  <!-- <div class="card-body">
                     <h5 class="card-title">
                       Video Recipe: The perfect Cosmopolitan
                     </h5>
@@ -231,7 +237,7 @@ export default {
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
