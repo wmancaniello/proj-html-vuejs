@@ -25,49 +25,47 @@
                 <div class="col-md-6 inner">
                     <div class="row g-0">
                         <div class="col-6 my-hover-card">
-                            <div class="img-container">
-
+                            <div class="img-container img-container-hero">
                                 <img src="../assets/img/banana.jpg" alt="Image 1" class="img-fluid my-hover-img">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
-                            <div class="img-container">
-
+                            <div class="img-container img-container-hero">
                                 <img src="../assets/img/beans.jpg" alt="Image 2" class="img-fluid my-hover-img">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
-                            <div class="img-container">
+                            <div class="img-container img-container-hero">
 
                                 <img src="../assets/img/kimchi.jpg" alt="Image 3" class="img-fluid my-hover-img">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
-                            <div class="img-container">
+                            <div class="img-container img-container-hero">
 
                                 <img src="../assets/img/egg-fruit.jpg" alt="Image 4" class="img-fluid my-hover-img">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
-                            <div class="img-container">
+                            <div class="img-container img-container-hero">
 
                                 <img src="../assets/img/ice-cream.jpg" alt="Image 5" class="img-fluid my-hover-img">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
-                            <div class="img-container">
+                            <div class="img-container img-container-hero">
 
                                 <img src="../assets/img/sushi.jpg" alt="Image 6" class="img-fluid my-hover-img">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
-                            <div class="img-container">
+                            <div class="img-container img-container-hero">
 
                                 <img src="../assets/img/drink.jpg" alt="Image 7" class="img-fluid my-hover-img">
                             </div>
                         </div>
                         <div class="col-6 my-hover-card">
-                            <div class="img-container">
+                            <div class="img-container img-container-hero">
 
                                 <img src="../assets/img/kimchi.jpg" alt="Image 8" class="img-fluid my-hover-img">
                             </div>
@@ -377,12 +375,12 @@
         color: #666;
         margin-bottom: 20px;
     }
-    
+
     a {
         text-decoration: none;
         color: black;
     }
-    
+
     /* ------------------------------ HOVER ------------------------------ */
 
     .my-hover-card {
@@ -395,7 +393,7 @@
     }
 
     .my-hover-img {
-        transition: transform 0.3s ease-in-out;
+        transition: transform 0.6s ease-in-out;
         width: 100%;
         height: auto;
     }
@@ -404,8 +402,25 @@
         transform: scale(1.1);
     }
 
+    .img-container-hero::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(250, 146, 0, 0.485);
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .img-container-hero:hover::after {
+        opacity: 1;
+        transition: 1s;
+    }
+
     /* ------------------------------ HOVER end------------------------------ */
-    
+
     /* ------------------------------ SEZIONE HERO -------------------------------- */
     .hero-section {
         position: relative;
