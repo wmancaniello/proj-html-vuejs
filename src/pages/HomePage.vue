@@ -3,7 +3,7 @@ import AppOrangeButton from "../components/AppOrangeButton.vue";
 import AppIconsSocial from "../components/AppIconsSocial.vue";
 import AppCards from "../components/AppCards.vue";
 import AppCardsList from "../components/AppCardsList.vue";
-import AppSmallCards from "../components/AppSmallCards.vue";
+
 
 export default {
   components: {
@@ -11,7 +11,6 @@ export default {
     AppIconsSocial,
     AppCardsList,
     AppCards,
-    AppSmallCards,
   },
   data() {
     return {
@@ -19,34 +18,27 @@ export default {
         {
           title: "Fruit Platter with Banana, Mango, Berries and Orange",
           image: "src/assets/img/banana.jpg",
-          
         },
         {
           title: "Breakfast Delight With Strawberry, Egg and Fruit",
           image: "src/assets/img/egg-fruit.jpg",
-          
         },
         {
           title: "Ice Cream Heaven With Vanilla, Chocolate and Pistachio",
           image: "src/assets/img/ice-cream.jpg",
-        
         },
         {
           title: "Video Recipe: How to make a Summer Drink Cool",
           image: "src/assets/img/summer-drink.jpg",
-          
         },
         {
           title: "Ketogenic Diet Recipe with Avocado",
           image: "src/assets/img/fruit-vegetables.jpg",
-          
         },
         {
           title: "Video Recipe: The perfect Cosmopolitan",
           image: "src/assets/img/drink.jpg",
-         
         },
-        
       ],
     };
   },
@@ -95,7 +87,7 @@ export default {
     <div class="row">
       <div class="col-md-4">
         <div class="card mb-4">
-          <img class="card-img-top" src="../assets/img/sushi.jpg" alt="Sushi" />
+          <img class="ms-img" src="../assets/img/sushi.jpg" alt="Sushi" />
           <div class="card-body">
             <h5 class="card-title">
               <a href="">Food Corner: Top Japanese Restaurants for Sushi</a>
@@ -106,7 +98,7 @@ export default {
       </div>
       <div class="col-md-4">
         <div class="card mb-4">
-          <img class="card-img-top" src="../assets/img/riso.jpg" alt="Rice" />
+          <img class="ms-img" src="../assets/img/riso.jpg" alt="Rice" />
           <div class="card-body">
             <h5 class="card-title">
               <a href=""
@@ -120,7 +112,7 @@ export default {
       <div class="col-md-4">
         <div class="card mb-4">
           <img
-            class="card-img-top"
+            class="ms-img"
             src="../assets/img/kimchi.jpg"
             alt="Kimchi"
           />
@@ -293,10 +285,9 @@ export default {
           Suspendisse maximus lacus non nunc lacinia lobortis.
         </p>
       </div>
-       
-      <!-- <div class="container">
-        <div class="row">
-        
+
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
           <div class="col-lg-3 col-md-3 col-sm-6">
             <div class="card mb-4 ms-card mx-5">
               <img
@@ -411,9 +402,9 @@ export default {
                 >
               </div>
             </div>
-          </div> 
+          </div>
         </div>
-      </div>-->
+      </div>
     </div>
   </div>
 
@@ -641,7 +632,13 @@ a {
 
 /* CULINARY COLLECTION */
 .card-img-top {
-  width: 75%;
+  position: relative;
+  
+  img {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
 }
 
 /*FARM TABLE*/
