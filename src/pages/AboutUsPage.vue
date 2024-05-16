@@ -218,8 +218,8 @@
                     ante. Sed quis luctus eros. Phasellus rutrum laoreet leo in consequat.</p>
                 <div class="row text-center">
                     <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="../assets/img/Wayne-Barnett.jpg" class="card-img-top" alt="Wayne Barnett">
+                        <div class="card my-hover-card">
+                            <img src="../assets/img/Wayne-Barnett.jpg" class="card-img-top my-hover-img" alt="Wayne Barnett">
                             <div class="card-body">
                                 <h5 class="card-title">Wayne Barnett</h5>
                                 <p class="card-text">Founder & CEO</p>
@@ -227,8 +227,8 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="../assets/img/Angela-Caroll.jpg" class="card-img-top" alt="Angela Caroll">
+                        <div class="card my-hover-card">
+                            <img src="../assets/img/Angela-Caroll.jpg" class="card-img-top my-hover-img" alt="Angela Caroll">
                             <div class="card-body">
                                 <h5 class="card-title">Angela Caroll</h5>
                                 <p class="card-text">Chief Editor</p>
@@ -236,8 +236,8 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="../assets/img/Walter-Gordon.jpg" class="card-img-top" alt="Walter Gordon">
+                        <div class="card my-hover-card">
+                            <img src="../assets/img/Walter-Gordon.jpg" class="card-img-top my-hover-img" alt="Walter Gordon">
                             <div class="card-body">
                                 <h5 class="card-title">Walter Gordon</h5>
                                 <p class="card-text">Head of Recipes</p>
@@ -247,8 +247,8 @@
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="../assets/img/Angela-Lopez.jpg" class="card-img-top" alt="Angela Lopez">
+                        <div class="card my-hover-card">
+                            <img src="../assets/img/Angela-Lopez.jpg" class="card-img-top my-hover-img" alt="Angela Lopez">
                             <div class="card-body">
                                 <h5 class="card-title">Angela Lopez</h5>
                                 <p class="card-text">Junior Chef</p>
@@ -256,8 +256,8 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="../assets/img/Scott-Estrada.jpg" class="card-img-top" alt="Scott Estrada">
+                        <div class="card my-hover-card">
+                            <img src="../assets/img/Scott-Estrada.jpg" class="card-img-top my-hover-img" alt="Scott Estrada">
                             <div class="card-body">
                                 <h5 class="card-title">Scott Estrada</h5>
                                 <p class="card-text">Developer</p>
@@ -265,8 +265,8 @@
                         </div>
                     </div>
                     <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <img src="../assets/img/Barbara-Ramos.jpg" class="card-img-top" alt="Barbara Ramos">
+                        <div class="card my-hover-card">
+                            <img src="../assets/img/Barbara-Ramos.jpg" class="card-img-top my-hover-img" alt="Barbara Ramos">
                             <div class="card-body">
                                 <h5 class="card-title">Barbara Ramos</h5>
                                 <p class="card-text">Graphic Designer</p>
