@@ -1,5 +1,8 @@
 <script>
+
+
 export default {
+  
   props: {
     cardObj: Object,
   },
@@ -30,6 +33,8 @@ export default {
       </h5>
     </div> -->
   <!-- </div> -->
+
+
 </template>
 
 <style scoped>
@@ -55,14 +60,22 @@ export default {
   align-items: center;
   flex-direction: column;
   opacity: 0;
-  transition: 0.6s;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.6s;
+  
+  p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+  }
 }
+
 
 .ms_content:hover {
   opacity: 1;
+  transition: 1s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
-.ms_content p {
-  color: #fff;
-}
 </style>

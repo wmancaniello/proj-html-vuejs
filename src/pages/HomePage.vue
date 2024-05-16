@@ -3,6 +3,7 @@ import AppOrangeButton from "../components/AppOrangeButton.vue";
 import AppIconsSocial from "../components/AppIconsSocial.vue";
 import AppCards from "../components/AppCards.vue";
 import AppCardsList from "../components/AppCardsList.vue";
+import AppSmallCards from "../components/AppSmallCards.vue";
 
 export default {
   components: {
@@ -10,6 +11,7 @@ export default {
     AppIconsSocial,
     AppCardsList,
     AppCards,
+    AppSmallCards,
   },
   data() {
     return {
@@ -17,27 +19,34 @@ export default {
         {
           title: "Fruit Platter with Banana, Mango, Berries and Orange",
           image: "src/assets/img/banana.jpg",
+          
         },
         {
           title: "Breakfast Delight With Strawberry, Egg and Fruit",
           image: "src/assets/img/egg-fruit.jpg",
+          
         },
         {
           title: "Ice Cream Heaven With Vanilla, Chocolate and Pistachio",
           image: "src/assets/img/ice-cream.jpg",
+        
         },
         {
           title: "Video Recipe: How to make a Summer Drink Cool",
           image: "src/assets/img/summer-drink.jpg",
+          
         },
         {
           title: "Ketogenic Diet Recipe with Avocado",
           image: "src/assets/img/fruit-vegetables.jpg",
+          
         },
         {
           title: "Video Recipe: The perfect Cosmopolitan",
           image: "src/assets/img/drink.jpg",
+         
         },
+        
       ],
     };
   },
@@ -284,8 +293,10 @@ export default {
           Suspendisse maximus lacus non nunc lacinia lobortis.
         </p>
       </div>
-      <div class="container">
+       
+      <!-- <div class="container">
         <div class="row">
+        
           <div class="col-lg-3 col-md-3 col-sm-6">
             <div class="card mb-4 ms-card mx-5">
               <img
@@ -400,9 +411,9 @@ export default {
                 >
               </div>
             </div>
-          </div>
+          </div> 
         </div>
-      </div>
+      </div>-->
     </div>
   </div>
 
@@ -444,7 +455,7 @@ export default {
             >
           </div>
         </div>
-        <div class="col-12 my-5">
+        <div class="col-12 my-5 ms_width">
           <AppCards :cardsArray="cardsArray" />
         </div>
       </div>
@@ -654,6 +665,10 @@ a {
     display: block;
     margin: auto;
   }
+}
+
+.ms_width {
+  width: 200%;
 }
 
 /*ROUNDED IMG */
