@@ -4,7 +4,6 @@ import AppIconsSocial from "../components/AppIconsSocial.vue";
 import AppCards from "../components/AppCards.vue";
 import AppCardsList from "../components/AppCardsList.vue";
 
-
 export default {
   components: {
     AppOrangeButton,
@@ -111,11 +110,7 @@ export default {
       </div>
       <div class="col-md-4">
         <div class="card mb-4">
-          <img
-            class="ms-img"
-            src="../assets/img/kimchi.jpg"
-            alt="Kimchi"
-          />
+          <img class="ms-img" src="../assets/img/kimchi.jpg" alt="Kimchi" />
           <div class="card-body">
             <h5 class="card-title">
               <a href="">Meal Prep: Korean Bibimbap with Kimchi</a>
@@ -156,120 +151,12 @@ export default {
                   sollicitudin. Integer vitae elementum ex. Sed porttitor, diam
                   eget convallis volutpat, arcu.
                 </p>
-                <!-- <a href="" class="btn btn-primary ms-btn">Learn More</a> -->
                 <AppOrangeButton text="Learn More" />
               </div>
             </div>
           </div>
 
           <AppCards :cardsArray="cardsArray" />
-          <!-- Colonna destra con le 6 card divise su tre righe -->
-          <!-- <div class="col-md-6">
-            <!-- Prima riga di card -->
-          <!-- <div class="row">
-              <div class="col-md-6 mb-3">
-                <div class="card">
-                  <a href="">
-                    <img class="ms-img" src="../assets/img/banana.jpg" alt="" />
-                  </a> -->
-          <!-- Contenuto della prima card -->
-          <!-- <div class="card-body">
-                    <h5 class="card-title">
-                      Fruit Platter with Banana, Mango, Berries and Orange
-                    </h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <div class="card">
-                  <a href="">
-                    <img
-                      class="ms-img"
-                      src="../assets/img/egg-fruit.jpg"
-                      alt=""
-                    />
-                  </a> -->
-          <!-- Contenuto della seconda card -->
-          <!-- <div class="card-body">
-                    <h5 class="card-title">
-                      Breakfast Delight With Strawberry, Egg and Fruit
-                    </h5>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-          <!-- Seconda riga di card -->
-          <!-- <div class="row">
-              <div class="col-md-6 mb-3">
-                <div class="card">
-                  <a href="">
-                    <img
-                      class="ms-img"
-                      src="../assets/img/ice-cream.jpg"
-                      alt=""
-                    />
-                  </a> -->
-          <!-- Contenuto della terza card -->
-          <!-- <div class="card-body">
-                    <h5 class="card-title">
-                      Ice Cream Heaven With Vanilla, Chocolate and Pistachio
-                    </h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <div class="card">
-                  <a href="">
-                    <img
-                      class="ms-img"
-                      src="../assets/img/summer-drink.jpg"
-                      alt=""
-                    />
-                  </a> -->
-          <!-- Contenuto della quarta card -->
-          <!-- <div class="card-body">
-                    <h5 class="card-title">
-                      Video Recipe: How to make a Summer Drink Cool
-                    </h5>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-          <!-- Terza riga di card -->
-          <!-- <div class="row">
-              <div class="col-md-6 mb-3">
-                <div class="card">
-                  <a href="">
-                    <img
-                      class="ms-img"
-                      src="../assets/img/fruit-vegetables.jpg"
-                      alt=""
-                    />
-                  </a> -->
-
-          <!-- Contenuto della quinta card -->
-          <!-- <div class="card-body">
-                    <h5 class="card-title">
-                      Ketogenic Diet Recipe with Avocado
-                    </h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <div class="card">
-                  <a href="">
-                    <img class="ms-img" src="../assets/img/drink.jpg" alt="" />
-                  </a> -->
-          <!-- Contenuto della sesta card -->
-          <!-- <div class="card-body">
-                    <h5 class="card-title">
-                      Video Recipe: The perfect Cosmopolitan
-                    </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
     </div>
@@ -633,7 +520,7 @@ a {
 /* CULINARY COLLECTION */
 .card-img-top {
   position: relative;
-  
+
   img {
     width: 50%;
     display: block;
@@ -641,7 +528,7 @@ a {
   }
 }
 
-.card-img-top{
+.card-img-top {
   width: 100%;
 }
 
@@ -706,45 +593,43 @@ a {
   color: lightgray;
 }
 
+/* ------------------------------ HOVER ------------------------------ */
 
-    /* ------------------------------ HOVER ------------------------------ */
+.my-hover-card {
+  overflow: hidden;
+}
 
-    .my-hover-card {
-        overflow: hidden;
-    }
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
 
-    .img-container {
-        position: relative;
-        overflow: hidden;
-    }
+.my-hover-img {
+  transition: transform 0.6s ease-in-out;
+  width: 100%;
+  height: auto;
+}
 
-    .my-hover-img {
-        transition: transform 0.6s ease-in-out;
-        width: 100%;
-        height: auto;
-    }
+.img-container:hover .my-hover-img {
+  transform: scale(1.1);
+}
 
-    .img-container:hover .my-hover-img {
-        transform: scale(1.1);
-    }
+.img-container-hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(250, 146, 0, 0.485);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
 
-    .img-container-hero::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(250, 146, 0, 0.485);
-        opacity: 0;
-        transition: opacity 0.3s ease-in-out;
-    }
+.img-container-hero:hover::after {
+  opacity: 1;
+  transition: 1s;
+}
 
-    .img-container-hero:hover::after {
-        opacity: 1;
-        transition: 1s;
-    }
-
-    /* ------------------------------ HOVER end------------------------------ */
-
+/* ------------------------------ HOVER end------------------------------ */
 </style>
