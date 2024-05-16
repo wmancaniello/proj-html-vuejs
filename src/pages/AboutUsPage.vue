@@ -117,7 +117,7 @@
             </div>
         </div>
 
-        <!------------------ ACHIEVMENTS ------------------>
+        <!------------------ ACHIEVEMENTS ------------------>
         <div class="achievements-section my-5">
             <div class="container">
                 <h5 class="text-center mb-3">OUR ACHIEVEMENTS</h5>
@@ -182,57 +182,57 @@
             </div>
         </div>
 
-<!------------------ Sezione Testimonials ------------------>
-<div class="testimonials-section my-5">
-    <div class="container">
-        <h5 class="text-center mb-5">TESTIMONIALS</h5>
-        <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius
-            ante. Sed quis luctus eros. Phasellus rutrum laoreet leo in consequat.</p>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card mb-4 text-center p-4">
-                    <img src="../assets/img/Testimonials-1.jpg" class="rounded-circle mx-auto d-block mb-3"
-                        alt="Testimonial">
-                    <blockquote class="blockquote mb-0">
-                        <p>Nulla vehicula urna vel velit porttitor, ac auctor sem efficitur.
-                            Praesent eleifend ante nec condimentum accumsan. Nam elit enim, rhoncus quis
-                            venenatis ut, tristique ac nisi. Duis pulvinar et magna et faucibus. Nullam eget
-                            nunc non felis auctor varius sit amet ac nunc.</p>
-                        <footer class="blockquote-footer">Jean Valdez, <cite title="Company Name">XYZ
-                                CompanyName</cite></footer>
-                    </blockquote>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <span class="testimonial-dot active"></span>
-                    <span class="testimonial-dot"></span>
-                    <span class="testimonial-dot"></span>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card mb-4 p-4 d-flex flex-row align-items-center testimonial-quote">
-                    <img src="../assets/img/Avada-review-1.png" class="rounded-circle mr-3 testimonial-pic"
-                        alt="Testimonial">
-                    <blockquote class="blockquote mb-0 flex-grow-1">
-                        <p>One of the best food blog of 2018 about organic food and unique recipes.
-                            Proin vel iaculis turpis.</p>
-                        <footer class="blockquote-footer">Avada Food Mag, <cite title="January 2019">January
-                                2019</cite></footer>
-                    </blockquote>
-                </div>
-                <div class="card mb-4 p-4 d-flex flex-row align-items-center testimonial-quote">
-                    <img src="../assets/img/Avada-review-2.webp" class="rounded-circle mr-3 testimonial-pic"
-                        alt="Testimonial">
-                    <blockquote class="blockquote mb-0 flex-grow-1">
-                        <p>Best blog for American Recipes and very good for learning cookings for
-                            anyone. Praesent id tempus sem.</p>
-                        <footer class="blockquote-footer">Food Blog Hunt, <cite title="January 2019">January
-                                2019</cite></footer>
-                    </blockquote>
+        <!------------------ Sezione Testimonials ------------------>
+        <div class="testimonials-section my-5">
+            <div class="container">
+                <h5 class="text-center mb-5">TESTIMONIALS</h5>
+                <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius
+                    ante. Sed quis luctus eros. Phasellus rutrum laoreet leo in consequat.</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-4 text-center p-4">
+                            <img src="../assets/img/Testimonials-1.jpg" class="rounded-circle mx-auto d-block mb-3"
+                                alt="Testimonial">
+                            <div class="quote mb-0">
+                                <p>Nulla vehicula urna vel velit porttitor, ac auctor sem efficitur.
+                                    Praesent eleifend ante nec condimentum accumsan. Nam elit enim, rhoncus quis
+                                    venenatis ut, tristique ac nisi. Duis pulvinar et magna et faucibus. Nullam eget
+                                    nunc non felis auctor varius sit amet ac nunc.</p>
+                                <footer class="quote-footer">Jean Valdez, <cite title="Company Name">XYZ
+                                        CompanyName</cite></footer>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <span class="testimonial-dot active"></span>
+                            <span class="testimonial-dot"></span>
+                            <span class="testimonial-dot"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-4 p-4 d-flex flex-row align-items-center testimonial-quote">
+                            <img src="../assets/img/Avada-review-1.png" class="rounded-circle mr-3 testimonial-pic"
+                                alt="Testimonial">
+                            <div class="quote mb-0 flex-grow-1">
+                                <p>One of the best food blog of 2018 about organic food and unique recipes.
+                                    Proin vel iaculis turpis.</p>
+                                <footer class="quote-footer">Avada Food Mag, <cite title="January 2019">January
+                                        2019</cite></footer>
+                            </div>
+                        </div>
+                        <div class="card mb-4 p-4 d-flex flex-row align-items-center testimonial-quote">
+                            <img src="../assets/img/Avada-review-2.webp" class="rounded-circle mr-3 testimonial-pic"
+                                alt="Testimonial">
+                            <div class="quote mb-0 flex-grow-1">
+                                <p>Best blog for American Recipes and very good for learning cookings for
+                                    anyone. Praesent id tempus sem.</p>
+                                <footer class="quote-footer">Food Blog Hunt, <cite title="January 2019">January
+                                        2019</cite></footer>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
         <!------------------ Sezione Our Writers ------------------>
         <div class="writers-section my-5">
@@ -305,7 +305,7 @@
         <div class="we-are-hiring-section">
             <div class="container text-center">
                 <h2 class="py-4">We Are Hiring! Let's Get in Touch.</h2>
-                <p pb-3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius ante. Sed quis luctus
+                <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius ante. Sed quis luctus
                     eros. Phasellus rutrum laoreet leo in consequat.</p>
                 <a href="#" class="btn btn-primary">Contact Us</a>
                 <p class="pt-3">Include your resume and portfolio link in the e-mail</p>
@@ -317,8 +317,39 @@
 <!-- -------------------------------------------------STYLE STYLE STYLE STYLE STYLE STYLE STYLE STYLE STYLE STYLE STYLE ---------------------------------------------------- -->
 
 <style scoped lang="scss">
-    /* ----------------------- HERO SECTION -------------------------------- */
+    /* ------------------------------ TAGS GENERAlI ------------------------------ */
+    h2 {
+        font-family: 'Playfair Display', serif;
+        color: #333;
+    }
 
+    h3 {
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        color: #fc7523;
+    }
+
+    h4 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* ------------------------------ SEZIONE HERO -------------------------------- */
     .hero-section {
         position: relative;
         background-image: url("../assets/img/Avada-AboutUs-Background.png");
@@ -354,14 +385,13 @@
         color: white;
     }
 
-    /* ----------------------- HERO SECTION -------------------------------- */
+    /* ------------------------------ Sezione con griglia di immagini a sx e testo a dx ----------------------- */
+    .inner {
+        position: relative;
+        top: -100px;
+    }
 
-
-
-
-
-    /* ------------------------------ Font Awesome Icons ----------------------------------------------- */
-
+    /* ------------------------------ Sezione con icone FONTAWSOME e testo ----------------------------------------------- */
     .icon-text {
         display: flex;
         align-items: flex-start;
@@ -377,7 +407,6 @@
 
     .icon-text h4 {
         font-family: 'Playfair Display', serif;
-        font-weight: bold;
         margin-bottom: 5px;
         margin-top: 0;
         font-size: 1.2em;
@@ -394,69 +423,7 @@
         margin: 0;
     }
 
-    /* ------------------------------ Font Awesome Icons ----------------------------------------------- */
-
-
-    /* ------------------------------ GENERALE, da riorganizzare, ho un po' perso la testa ----------------------------------------------- */
-
-    h2 {
-        font-family: 'Playfair Display', serif;
-        color: #333;
-    }
-
-    h4 {
-        font-family: 'Playfair Display', serif;
-        font-weight: bold;
-        margin-bottom: 15px;
-    }
-
-    p {
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #666;
-        margin-bottom: 20px;
-    }
-
-    .ms-container-card {
-        margin: auto;
-        background-color: #ffffff;
-        margin-top: -100px;
-    }
-
-    .ms-btn,
-    .ms-btn-home {
-        background-color: #fc7523;
-        border: none;
-    }
-
-    .ms-img {
-        height: 200px;
-        object-fit: cover;
-    }
-
-    a {
-        text-decoration: none;
-        color: black;
-    }
-
-    .ms-banner-text:hover {
-        color: #fc7523;
-    }
-
-    .card-text {
-        color: #666;
-    }
-
-
-    p.card-text {
-        font-family: 'Roboto', sans-serif;
-        font-size: 16px;
-        line-height: 1.5;
-        color: #666;
-    }
-
-
+    /* ------------------------------ ACHIEVEMENTS ------------------ */
     .achievements-section {
         background-image: url("../assets/img/Avada-AboutUs-Background-BIG.png");
         background-size: cover;
@@ -494,97 +461,83 @@
         text-align: center;
     }
 
-    h3 {
-        font-family: 'Playfair Display', serif;
-        font-size: 2rem;
-        margin-bottom: 0.5rem;
-        color: #fc7523;
-    }
-
-    p {
+    p.card-text {
         font-family: 'Roboto', sans-serif;
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 1.5;
         color: #666;
     }
 
-    .inner {
-        position: relative;
-        top: -100px;
+    /* ------------------------------ Sezione Testimonials ----------------------------------------------- */
+    .testimonials-section {
+        background-color: #f9f9f9;
+        padding: 50px 0;
     }
 
+    .card {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-/* ------------------------------ TESTIMONIALS SECTION ----------------------------------------------- */
+    .testimonial-pic {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 15px;
+    }
 
-.testimonials-section {
-    background-color: #f9f9f9;
-    padding: 50px 0;
-}
+    .testimonial-dot {
+        width: 10px;
+        height: 10px;
+        background-color: #ccc;
+        border-radius: 50%;
+        margin: 0 5px;
+        cursor: pointer;
+    }
 
-.card {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    .testimonial-dot.active {
+        background-color: #fc7523;
+    }
 
-.testimonial-pic {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-right: 15px;
-}
+    .quote {
+        margin: 0;
+    }
 
-.testimonial-dot {
-    width: 10px;
-    height: 10px;
-    background-color: #ccc;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-}
+    .quote footer {
+        margin-top: 15px;
+        font-size: 0.9em;
+        color: #777;
+    }
 
-.testimonial-dot.active {
-    background-color: #fc7523;
-}
+    .rounded-circle.mx-auto {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-blockquote {
-    margin: 0;
-}
+    .text-center .card {
+        text-align: left;
+    }
 
-blockquote footer {
-    margin-top: 15px;
-    font-size: 0.9em;
-    color: #777;
-}
+    .testimonial-quote {
+        display: flex;
+        align-items: center;
+    }
 
-.rounded-circle.mx-auto {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .testimonial-quote img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 15px;
+    }
 
-.text-center .card {
-    text-align: left;
-}
+    .testimonial-quote .quote {
+        flex-grow: 1;
+    }
 
-.testimonial-quote {
-    display: flex;
-    align-items: center;
-}
-
-.testimonial-quote img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 15px;
-}
-
-.testimonial-quote blockquote {
-    flex-grow: 1;
-}
-
-    /* ------------------------------ WRITERS SECTION----------------------------------------------- */
-
+    /* ------------------------------ Sezione Our Writers ----------------------------------------------- */
     .writers-section {
         padding: 50px 0;
     }
@@ -601,9 +554,7 @@ blockquote footer {
         color: #666;
     }
 
-    /* ------------------------------ WE ARE HIRING SECTION----------------------------------------------- */
-
-
+    /* ------------------------------ Sezione We Are Hiring ----------------------------------------------- */
     .we-are-hiring-section {
         background-image: url("../assets/img/Avada-AboutUs-Background.png");
         background-size: cover;
