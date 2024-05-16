@@ -19,7 +19,7 @@ export default {
   <div class="col-md-6">
     <div class="row">
       <div class="col-md-6 mb-3" v-for="card in cardsArray">
-        <AppCardsList :cardobj="card" />
+        <AppCardsList :cardObj="card" />
       </div>
     </div>
   </div>
@@ -27,7 +27,5 @@ export default {
 </template>
 
 <style>
-.ms-img {
-  height: 200px;
-}
+
 </style>
