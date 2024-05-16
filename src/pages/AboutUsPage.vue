@@ -43,10 +43,10 @@
                             <img src="../assets/img/sushi.jpg" alt="Image 6" class="img-fluid">
                         </div>
                         <div class="col-6">
-                            <img src="../assets/img/banana.jpg" alt="Image 1" class="img-fluid">
+                            <img src="../assets/img/drink.jpg" alt="Image 7" class="img-fluid">
                         </div>
                         <div class="col-6">
-                            <img src="../assets/img/beans.jpg" alt="Image 2" class="img-fluid">
+                            <img src="../assets/img/kimchi.jpg" alt="Image 8" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <img src="../assets/img/achievment-2.jpg" class="card-img-top" alt="Waffle">
+                            <img src="../assets/img/achievment-3.jpg" class="card-img-top" alt="Waffle">
                             <div class="card-body">
                                 <h5 class="card-title">Best Food Blog of 2018</h5>
                                 <p class="card-text">Praesent quam magna, varius in laoreet in, condimentum at augue.
@@ -243,7 +243,7 @@
                 <div class="row text-center">
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <img src="../assets/img/Scott-Estrada.jpg" class="card-img-top" alt="Wayne Barnett">
+                            <img src="../assets/img/Wayne-Barnett.jpg" class="card-img-top" alt="Wayne Barnett">
                             <div class="card-body">
                                 <h5 class="card-title">Wayne Barnett</h5>
                                 <p class="card-text">Founder & CEO</p>
