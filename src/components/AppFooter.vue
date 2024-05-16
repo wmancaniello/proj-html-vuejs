@@ -249,12 +249,12 @@ export default {
   position: absolute;
   background: rgba(250, 146, 0, 0.485);
   display: flex;
-  text-align: center;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   opacity: 0;
   // Da aggiungere
+  text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   transition: box-shadow 0.6s; 
 
