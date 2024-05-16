@@ -419,13 +419,6 @@
         padding-bottom: 5px;
     }
 
-    .icon-text p {
-        font-family: 'Roboto', sans-serif;
-        font-size: 14px;
-        color: #666;
-        margin: 0;
-    }
-
     /* ------------------------------ ACHIEVEMENTS ------------------ */
 
     .achievements-section {
@@ -440,29 +433,10 @@
         border: none;
     }
 
-    .card-img-top {
-        border-top-left-radius: calc(.25rem - 1px);
-        border-top-right-radius: calc(.25rem - 1px);
-    }
-
-    .card-body {
-        padding: 1.25rem;
-    }
-
     .card-title {
         font-family: 'Playfair Display', serif;
         font-size: 1.25rem;
         margin-bottom: 0.75rem;
-    }
-
-    .card-text {
-        font-family: 'Roboto', sans-serif;
-        font-size: 0.875rem;
-        color: #666;
-    }
-
-    .text-center {
-        text-align: center;
     }
 
     p.card-text {
@@ -482,7 +456,7 @@
     .card {
         background-color: #fff;
         border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     }
 
     .testimonial-pic {
@@ -496,7 +470,7 @@
     .testimonial-dot {
         width: 10px;
         height: 10px;
-        background-color: #ccc;
+        background-color: lightgrey;
         border-radius: 50%;
         margin: 0 5px;
         cursor: pointer;
@@ -506,58 +480,20 @@
         background-color: #fc7523;
     }
 
-    .quote {
-        margin: 0;
-    }
-
     .quote footer {
         margin-top: 15px;
         font-size: 0.9em;
         color: #777;
     }
 
-    .rounded-circle.mx-auto {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .text-center .card {
         text-align: left;
-    }
-
-    .testimonial-quote {
-        display: flex;
-        align-items: center;
-    }
-
-    .testimonial-quote img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-right: 15px;
-    }
-
-    .testimonial-quote .quote {
-        flex-grow: 1;
     }
 
     /* ------------------------------ Sezione Our Writers ----------------------------------------------- */
 
     .writers-section {
         padding: 50px 0;
-    }
-
-    .card-title {
-        font-family: 'Playfair Display', serif;
-        font-size: 1.25rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .card-text {
-        font-family: 'Roboto', sans-serif;
-        font-size: 0.875rem;
-        color: #666;
     }
 
     /* ------------------------------ Sezione We Are Hiring ----------------------------------------------- */
