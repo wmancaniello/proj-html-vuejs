@@ -22,30 +22,30 @@
         <div class="container my-5">
             <div class="row">
                 <!-- Colonna di sinistra con la griglia di immagini -->
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-6 p-1">
+                <div class="col-md-6 inner">
+                    <div class="row g-0">
+                        <div class="col-6">
                             <img src="../assets/img/banana.jpg" alt="Image 1" class="img-fluid">
                         </div>
-                        <div class="col-6 p-1">
+                        <div class="col-6">
                             <img src="../assets/img/beans.jpg" alt="Image 2" class="img-fluid">
                         </div>
-                        <div class="col-6 p-1">
+                        <div class="col-6">
                             <img src="../assets/img/kimchi.jpg" alt="Image 3" class="img-fluid">
                         </div>
-                        <div class="col-6 p-1">
+                        <div class="col-6">
                             <img src="../assets/img/egg-fruit.jpg" alt="Image 4" class="img-fluid">
                         </div>
-                        <div class="col-6 p-1">
+                        <div class="col-6">
                             <img src="../assets/img/ice-cream.jpg" alt="Image 5" class="img-fluid">
                         </div>
-                        <div class="col-6 p-1">
+                        <div class="col-6">
                             <img src="../assets/img/sushi.jpg" alt="Image 6" class="img-fluid">
                         </div>
-                        <div class="col-6 p-1">
+                        <div class="col-6">
                             <img src="../assets/img/banana.jpg" alt="Image 1" class="img-fluid">
                         </div>
-                        <div class="col-6 p-1">
+                        <div class="col-6">
                             <img src="../assets/img/beans.jpg" alt="Image 2" class="img-fluid">
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                 <div class="col-md-6">
                     <div class="row mb-5">
                         <div class="col-12">
-                            <h3>Our Story</h3>
+                            <h5>Our Story</h5>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius ante. Sed
                                 quis luctus eros. Phasellus rutrum laoreet leo in consequat. Phasellus vel semper ante.
                                 Vivamus turpis purus, dapibus vitae ex a, varius ornare elit. Nullam eu purus congue,
@@ -65,7 +65,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <h3>About Our Company</h3>
+                            <h5>About Our Company</h5>
                             <p>Curabitur id nibh sit amet lectus efficitur tempus aliquet non ante. Aenean feugiat, enim
                                 suscipit dictum ullamcorper, tellus nunc mollis leo, vitae elementum lacus lorem tempor
                                 ante. Maecenas ac aliquet risus, nec fringilla sem. Nam sed nibh id arcu vestibulum
@@ -120,7 +120,7 @@
         <!------------------ ACHIEVMENTS ------------------>
         <div class="achievements-section my-5">
             <div class="container">
-                <h2 class="text-center mb-5">OUR ACHIEVEMENTS</h2>
+                <h5 class="text-center mb-3">OUR ACHIEVEMENTS</h5>
                 <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius
                     ante. Sed quis luctus eros. Phasellus rutrum laoreet leo in consequat.</p>
                 <div class="row text-center">
@@ -185,13 +185,14 @@
         <!------------------ Sezione Testimonials ------------------>
         <div class="testimonials-section my-5">
             <div class="container">
-                <h2 class="text-center mb-5">TESTIMONIALS</h2>
+                <h5 class="text-center mb-5">TESTIMONIALS</h5>
                 <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius
                     ante. Sed quis luctus eros. Phasellus rutrum laoreet leo in consequat.</p>
-                <div class="row text-center">
-                    <div class="col-md-8 offset-md-2">
-                        <div class="testimonial-card p-4 mb-4">
-                            <img src="../assets/img/Testimonials-1.jpg" class="testimonial-img" alt="Testimonial">
+                <div class="row">
+                    <div class="col-md-4 offset-md-2">
+                        <div class="testimonial-card p-4 mb-4 text-center">
+                            <img src="../assets/img/Testimonials-1.jpg" class="testimonial-img mx-auto"
+                                alt="Testimonial">
                             <blockquote class="blockquote">
                                 <p class="mb-0">Nulla vehicula urna vel velit porttitor, ac auctor sem efficitur.
                                     Praesent eleifend ante nec condimentum accumsan. Nam elit enim, rhoncus quis
@@ -201,7 +202,7 @@
                             <footer class="blockquote-footer">Jean Valdez, <cite title="Company Name">XYZ
                                     CompanyName</cite></footer>
                         </div>
-                        <div class="testimonial-navigation">
+                        <div class="testimonial-navigation text-center">
                             <span class="testimonial-dot active"></span>
                             <span class="testimonial-dot"></span>
                             <span class="testimonial-dot"></span>
@@ -352,6 +353,9 @@
     /* ----------------------- HERO SECTION -------------------------------- */
 
 
+
+
+
     /* ------------------------------ Font Awesome Icons ----------------------------------------------- */
 
     .icon-text {
@@ -396,10 +400,10 @@
         color: #333;
     }
 
-    h3 {
+    h4 {
         font-family: 'Playfair Display', serif;
         font-weight: bold;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     p {
@@ -495,8 +499,13 @@
 
     p {
         font-family: 'Roboto', sans-serif;
-        font-size: 1rem;
+        font-size: 14px;
         color: #666;
+    }
+
+    .inner {
+        position: relative;
+        top: -100px;
     }
 
 
@@ -544,6 +553,36 @@
         background-color: #fff;
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .testimonial-quote blockquote {
+        margin: 0;
+    }
+
+    .testimonial-quote footer {
+        margin-top: 15px;
+        font-size: 0.9em;
+        color: #777;
+    }
+
+    .testimonial-card blockquote {
+        margin: 0;
+    }
+
+    .testimonial-card footer {
+        margin-top: 15px;
+        font-size: 0.9em;
+        color: #777;
+    }
+
+    .testimonial-img.mx-auto {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-center .testimonial-card {
+        text-align: left;
     }
 
     /* ------------------------------ WRITERS SECTION----------------------------------------------- */
