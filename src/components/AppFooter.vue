@@ -254,7 +254,7 @@ export default {
   align-items: center;
   flex-direction: column;
   opacity: 0;
-  // Test
+  // Da aggiungere
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   transition: box-shadow 0.6s; 
 
@@ -268,9 +268,9 @@ export default {
 }
 
 .ms_content:hover {
-  transition: 1s;
   opacity: 1;
-  // test
+  // da aggiugnere
+  transition: 1s;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
