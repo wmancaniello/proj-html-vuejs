@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-    <div class="col-12 col-md-3 ms_image">
+    <div class="card ms_image"> 
         <img
           :src="cardObj.image"
           alt=""
