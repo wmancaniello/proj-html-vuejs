@@ -3,6 +3,7 @@ import AppFooter from "./components/AppFooter.vue";
 import AppHeader from "./components/AppHeader.vue";
 import AppCards from "./components/AppCards.vue";
 import BackToTopButton from "./components/BackToTopButton.vue";
+import ButtonRightSide from "./components/ButtonRightSide.vue";
 
 export default {
   components: {
@@ -10,9 +11,8 @@ export default {
     AppFooter,
     AppCards,
     BackToTopButton,
+    ButtonRightSide,
   },
- 
- 
 };
 </script>
 
@@ -21,6 +21,7 @@ export default {
   <router-view></router-view>
   <AppCards />
   <BackToTopButton />
+  <ButtonRightSide />
   <AppFooter />
 </template>
 
