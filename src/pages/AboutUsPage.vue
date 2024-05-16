@@ -305,7 +305,8 @@
         <div class="we-are-hiring-section">
             <div class="container text-center">
                 <h2 class="py-4">We Are Hiring! Let's Get in Touch.</h2>
-                <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius ante. Sed quis luctus
+                <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius ante. Sed
+                    quis luctus
                     eros. Phasellus rutrum laoreet leo in consequat.</p>
                 <a href="#" class="btn btn-primary">Contact Us</a>
                 <p class="pt-3">Include your resume and portfolio link in the e-mail</p>
@@ -386,12 +387,14 @@
     }
 
     /* ------------------------------ Sezione con griglia di immagini a sx e testo a dx ----------------------- */
+
     .inner {
         position: relative;
         top: -100px;
     }
 
     /* ------------------------------ Sezione con icone FONTAWSOME e testo ----------------------------------------------- */
+
     .icon-text {
         display: flex;
         align-items: flex-start;
@@ -424,6 +427,7 @@
     }
 
     /* ------------------------------ ACHIEVEMENTS ------------------ */
+
     .achievements-section {
         background-image: url("../assets/img/Avada-AboutUs-Background-BIG.png");
         background-size: cover;
@@ -469,6 +473,7 @@
     }
 
     /* ------------------------------ Sezione Testimonials ----------------------------------------------- */
+
     .testimonials-section {
         background-color: #f9f9f9;
         padding: 50px 0;
@@ -538,6 +543,7 @@
     }
 
     /* ------------------------------ Sezione Our Writers ----------------------------------------------- */
+
     .writers-section {
         padding: 50px 0;
     }
@@ -555,6 +561,7 @@
     }
 
     /* ------------------------------ Sezione We Are Hiring ----------------------------------------------- */
+    
     .we-are-hiring-section {
         background-image: url("../assets/img/Avada-AboutUs-Background.png");
         background-size: cover;
