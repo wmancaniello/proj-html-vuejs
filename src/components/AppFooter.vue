@@ -46,7 +46,7 @@ export default {
           class="img-fluid"
         />
         <div class="ms_content">
-          <p>lorem ipsum dolor sit amet</p>
+          <p>Fruit Platter with Banana, Mango, Berries and Orange</p>
         </div>
       </div>
       <div class="col-12 col-md-3 ms_image">
@@ -56,7 +56,7 @@ export default {
           class="img-fluid"
         />
         <div class="ms_content">
-          <p>lorem ipsum dolor sit amet</p>
+          <p>Breakfast Delight With Strawberry, Egg and Fruit</p>
         </div>
       </div>
       <div class="col-12 col-md-3 ms_image">
@@ -66,7 +66,7 @@ export default {
           class="img-fluid"
         />
         <div class="ms_content">
-          <p>lorem ipsum dolor sit amet</p>
+          <p>Ice Cream Heaven with vanilla Chocolate and Pistacchio</p>
         </div>
       </div>
       <div class="col-12 col-md-3 ms_image">
@@ -76,7 +76,7 @@ export default {
           class="img-fluid"
         />
         <div class="ms_content">
-          <p>lorem ipsum dolor sit amet</p>
+          <p>Video Recipe: How to Make a Cool Summer Drink</p>
         </div>
       </div>
     </div>
@@ -249,19 +249,29 @@ export default {
   position: absolute;
   background: rgba(250, 146, 0, 0.485);
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   opacity: 0;
-  transition: 0.6s;
+  // Test
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.6s; 
+
+
+  //Font Style
+  p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+  }
 }
 
 .ms_content:hover {
+  transition: 1s;
   opacity: 1;
-}
-
-.ms_content p {
-  color: #fff;
+  // test
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
 // HOVER MENU
