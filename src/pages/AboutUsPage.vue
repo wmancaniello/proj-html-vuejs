@@ -182,53 +182,57 @@
             </div>
         </div>
 
-        <!------------------ Sezione Testimonials ------------------>
-        <div class="testimonials-section my-5">
-            <div class="container">
-                <h5 class="text-center mb-5">TESTIMONIALS</h5>
-                <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius
-                    ante. Sed quis luctus eros. Phasellus rutrum laoreet leo in consequat.</p>
-                <div class="row">
-                    <div class="col-md-4 offset-md-2">
-                        <div class="testimonial-card p-4 mb-4 text-center">
-                            <img src="../assets/img/Testimonials-1.jpg" class="testimonial-img mx-auto"
-                                alt="Testimonial">
-                            <blockquote class="blockquote">
-                                <p class="mb-0">Nulla vehicula urna vel velit porttitor, ac auctor sem efficitur.
-                                    Praesent eleifend ante nec condimentum accumsan. Nam elit enim, rhoncus quis
-                                    venenatis ut, tristique ac nisi. Duis pulvinar et magna et faucibus. Nullam eget
-                                    nunc non felis auctor varius sit amet ac nunc.</p>
-                            </blockquote>
-                            <footer class="blockquote-footer">Jean Valdez, <cite title="Company Name">XYZ
-                                    CompanyName</cite></footer>
-                        </div>
-                        <div class="testimonial-navigation text-center">
-                            <span class="testimonial-dot active"></span>
-                            <span class="testimonial-dot"></span>
-                            <span class="testimonial-dot"></span>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="testimonial-quote p-4 mb-4">
-                            <blockquote class="blockquote">
-                                <p class="mb-0">One of the best food blog of 2018 about organic food and unique recipes.
-                                    Proin vel iaculis turpis.</p>
-                            </blockquote>
-                            <footer class="blockquote-footer">Avada Food Mag, <cite title="January 2019">January
-                                    2019</cite></footer>
-                        </div>
-                        <div class="testimonial-quote p-4 mb-4">
-                            <blockquote class="blockquote">
-                                <p class="mb-0">Best blog for American Recipes and very good for learning cookings for
-                                    anyone. Praesent id tempus sem.</p>
-                            </blockquote>
-                            <footer class="blockquote-footer">Food Blog Hunt, <cite title="January 2019">January
-                                    2019</cite></footer>
-                        </div>
-                    </div>
+<!------------------ Sezione Testimonials ------------------>
+<div class="testimonials-section my-5">
+    <div class="container">
+        <h5 class="text-center mb-5">TESTIMONIALS</h5>
+        <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius
+            ante. Sed quis luctus eros. Phasellus rutrum laoreet leo in consequat.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4 text-center p-4">
+                    <img src="../assets/img/Testimonials-1.jpg" class="rounded-circle mx-auto d-block mb-3"
+                        alt="Testimonial">
+                    <blockquote class="blockquote mb-0">
+                        <p>Nulla vehicula urna vel velit porttitor, ac auctor sem efficitur.
+                            Praesent eleifend ante nec condimentum accumsan. Nam elit enim, rhoncus quis
+                            venenatis ut, tristique ac nisi. Duis pulvinar et magna et faucibus. Nullam eget
+                            nunc non felis auctor varius sit amet ac nunc.</p>
+                        <footer class="blockquote-footer">Jean Valdez, <cite title="Company Name">XYZ
+                                CompanyName</cite></footer>
+                    </blockquote>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <span class="testimonial-dot active"></span>
+                    <span class="testimonial-dot"></span>
+                    <span class="testimonial-dot"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4 p-4 d-flex flex-row align-items-center testimonial-quote">
+                    <img src="../assets/img/Avada-review-1.png" class="rounded-circle mr-3 testimonial-pic"
+                        alt="Testimonial">
+                    <blockquote class="blockquote mb-0 flex-grow-1">
+                        <p>One of the best food blog of 2018 about organic food and unique recipes.
+                            Proin vel iaculis turpis.</p>
+                        <footer class="blockquote-footer">Avada Food Mag, <cite title="January 2019">January
+                                2019</cite></footer>
+                    </blockquote>
+                </div>
+                <div class="card mb-4 p-4 d-flex flex-row align-items-center testimonial-quote">
+                    <img src="../assets/img/Avada-review-2.webp" class="rounded-circle mr-3 testimonial-pic"
+                        alt="Testimonial">
+                    <blockquote class="blockquote mb-0 flex-grow-1">
+                        <p>Best blog for American Recipes and very good for learning cookings for
+                            anyone. Praesent id tempus sem.</p>
+                        <footer class="blockquote-footer">Food Blog Hunt, <cite title="January 2019">January
+                                2019</cite></footer>
+                    </blockquote>
                 </div>
             </div>
         </div>
+    </div>
+</div>
 
         <!------------------ Sezione Our Writers ------------------>
         <div class="writers-section my-5">
@@ -300,11 +304,11 @@
         <!------------------ Sezione We Are Hiring ------------------>
         <div class="we-are-hiring-section">
             <div class="container text-center">
-                <h2>We Are Hiring! Let's Get in Touch.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius ante. Sed quis luctus
+                <h2 class="py-4">We Are Hiring! Let's Get in Touch.</h2>
+                <p pb-3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in varius ante. Sed quis luctus
                     eros. Phasellus rutrum laoreet leo in consequat.</p>
                 <a href="#" class="btn btn-primary">Contact Us</a>
-                <p>Include your resume and portfolio link in the e-mail</p>
+                <p class="pt-3">Include your resume and portfolio link in the e-mail</p>
             </div>
         </div>
     </div>
@@ -509,81 +513,75 @@
     }
 
 
-    /* ------------------------------ TESTIMONIALS SECTION ----------------------------------------------- */
+/* ------------------------------ TESTIMONIALS SECTION ----------------------------------------------- */
 
-    .testimonials-section {
-        background-color: #f9f9f9;
-        padding: 50px 0;
-    }
+.testimonials-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
 
-    .testimonial-card {
-        background-color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-    .testimonial-img {
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        object-fit: cover;
-        margin-bottom: 20px;
-    }
+.testimonial-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
 
-    .testimonial-navigation {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-    }
+.testimonial-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
 
-    .testimonial-dot {
-        width: 10px;
-        height: 10px;
-        background-color: #ccc;
-        border-radius: 50%;
-        margin: 0 5px;
-        cursor: pointer;
-    }
+.testimonial-dot.active {
+    background-color: #fc7523;
+}
 
-    .testimonial-dot.active {
-        background-color: #fc7523;
-    }
+blockquote {
+    margin: 0;
+}
 
-    .testimonial-quote {
-        background-color: #fff;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+blockquote footer {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #777;
+}
 
-    .testimonial-quote blockquote {
-        margin: 0;
-    }
+.rounded-circle.mx-auto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    .testimonial-quote footer {
-        margin-top: 15px;
-        font-size: 0.9em;
-        color: #777;
-    }
+.text-center .card {
+    text-align: left;
+}
 
-    .testimonial-card blockquote {
-        margin: 0;
-    }
+.testimonial-quote {
+    display: flex;
+    align-items: center;
+}
 
-    .testimonial-card footer {
-        margin-top: 15px;
-        font-size: 0.9em;
-        color: #777;
-    }
+.testimonial-quote img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
 
-    .testimonial-img.mx-auto {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .text-center .testimonial-card {
-        text-align: left;
-    }
+.testimonial-quote blockquote {
+    flex-grow: 1;
+}
 
     /* ------------------------------ WRITERS SECTION----------------------------------------------- */
 
@@ -611,7 +609,7 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        padding: 100px 0;
+        padding: 150px 0;
         color: #333;
     }
 
