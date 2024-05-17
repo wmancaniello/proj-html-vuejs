@@ -3,7 +3,7 @@ export default {};
 </script>
 
 <template>
-  <h1>RECIPES</h1>
+  <div class="work-in-progress"></div>
 </template>
 
-<style></style>
+<style lang="scss" scoped></style>
