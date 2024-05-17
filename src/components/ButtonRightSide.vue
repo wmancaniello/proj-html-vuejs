@@ -25,6 +25,7 @@ export default {};
   width: 60px;
   text-decoration: none;
   transition: 0.2s ease-out;
+  z-index: 1;
 
   i {
     font-size: 1.6rem;
@@ -45,6 +46,7 @@ export default {};
   width: 60px;
   text-decoration: none;
   transition: 0.2s ease-out;
+  z-index: 1;
 
   i {
     font-size: 1.6rem;

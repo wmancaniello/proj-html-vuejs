@@ -22,6 +22,7 @@ export default {};
   border-radius: 50%;
   text-decoration: none;
   transition: 0.2s ease-out;
+  z-index: 1;
 
   i {
     color: #fff;
