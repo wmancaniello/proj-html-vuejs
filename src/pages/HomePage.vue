@@ -113,7 +113,7 @@ export default {
           <img class="ms-img" src="../assets/img/kimchi.jpg" alt="Kimchi" />
           <div class="card-body">
             <h5 class="card-title">
-              <a href="">Meal Prep: Korean Bibimbap with Kimchi</a>
+              <a href="">Meal Prep: Korean Bibimbap with <br> Kimchi</a>
             </h5>
             <p class="card-text">March 25th, 2019</p>
           </div>
