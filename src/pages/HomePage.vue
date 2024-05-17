@@ -172,122 +172,112 @@ export default {
           Suspendisse maximus lacus non nunc lacinia lobortis.
         </p>
       </div>
-
-      <div class="container">
-        <div class="row d-flex justify-content-center align-items-center">
-          <div class="col-lg-3 col-md-3 col-sm-6">
-            <div class="card mb-4 ms-card mx-5">
-              <img
-                class="card-img-top"
-                src="../assets/img/cheese.webp"
-                alt="Cheese"
-              />
-              <div class="card-body text-center">
-                <a href="" class="ms-btn-recipes btn btn-primary w-100"
-                  >Appetisers</a
-                >
-              </div>
+    </div>
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="card mb-4 ms-card text-center">
+            <img
+              class="card-img-top custom-card-img"
+              src="../assets/img/cheese.webp"
+              alt="Cheese"
+            />
+            <div class="card-body text-center">
+              <a href="" class="ms-btn-recipes btn btn-primary w-100"
+                >Appetisers</a
+              >
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6">
-            <div class="card ms-card mx-5">
-              <img
-                class="card-img-top"
-                src="../assets/img/bakery.webp"
-                alt="Bakery"
-              />
-              <div class="card-body text-center">
-                <a href="/" class="ms-btn-recipes btn btn-primary w-100"
-                  >Bakery</a
-                >
-              </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="card mb-4 ms-card text-center">
+            <img
+              class="card-img-top custom-card-img"
+              src="../assets/img/bakery.webp"
+              alt="Bakery"
+            />
+            <div class="card-body text-center">
+              <a href="/" class="ms-btn-recipes btn btn-primary w-100"
+                >Bakery</a
+              >
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6">
-            <div class="card ms-card mx-5">
-              <img
-                class="card-img-top mx-auto"
-                src="../assets/img/dinner.webp"
-                alt="Dinner"
-              />
-              <div class="card-body text-center">
-                <a href="" class="ms-btn-recipes btn btn-primary w-100"
-                  >Dinner</a
-                >
-              </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="card mb-4 ms-card text-center">
+            <img
+              class="card-img-top custom-card-img"
+              src="../assets/img/dinner.webp"
+              alt="Dinner"
+            />
+            <div class="card-body text-center">
+              <a href="" class="ms-btn-recipes btn btn-primary w-100">Dinner</a>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6">
-            <div class="card ms-card mx-5">
-              <img
-                class="card-img-top"
-                src="../assets/img/drinks.webp"
-                alt="Drinks"
-              />
-              <div class="card-body text-center">
-                <a href="" class="ms-btn-recipes btn btn-primary w-100"
-                  >Drinks</a
-                >
-              </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="card mb-4 ms-card text-center">
+            <img
+              class="card-img-top custom-card-img"
+              src="../assets/img/drinks.webp"
+              alt="Drinks"
+            />
+            <div class="card-body text-center">
+              <a href="" class="ms-btn-recipes btn btn-primary w-100">Drinks</a>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-3 col-sm-6">
-            <div class="card mb-5 ms-card mx-5">
-              <img
-                class="card-img-top"
-                src="../assets/img/healthy.webp"
-                alt="healthy"
-              />
-              <div class="card-body text-center">
-                <a href="" class="ms-btn-recipes btn btn-primary w-100"
-                  >Healthy</a
-                >
-              </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="card mb-4 ms-card text-center">
+            <img
+              class="card-img-top custom-card-img"
+              src="../assets/img/healthy.webp"
+              alt="Healthy"
+            />
+            <div class="card-body text-center">
+              <a href="" class="ms-btn-recipes btn btn-primary w-100"
+                >Healthy</a
+              >
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-3 col-sm-6">
-            <div class="card ms-card mx-5">
-              <img
-                class="card-img-top"
-                src="../assets/img/quick-easy.webp"
-                alt="quick"
-              />
-              <div class="card-body text-center">
-                <a href="" class="ms-btn-recipes btn btn-primary w-100"
-                  >Quick & Easy</a
-                >
-              </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="card mb-4 ms-card text-center">
+            <img
+              class="card-img-top custom-card-img"
+              src="../assets/img/quick-easy.webp"
+              alt="Quick & Easy"
+            />
+            <div class="card-body text-center">
+              <a href="" class="ms-btn-recipes btn btn-primary w-100"
+                >Quick & Easy</a
+              >
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-3 col-sm-6">
-            <div class="card ms-card mx-5">
-              <img
-                class="card-img-top"
-                src="../assets/img/soups.webp"
-                alt="soup"
-              />
-              <div class="card-body text-center">
-                <a href="" class="ms-btn-recipes btn btn-primary w-100"
-                  >Soups</a
-                >
-              </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="card mb-4 ms-card text-center">
+            <img
+              class="card-img-top custom-card-img"
+              src="../assets/img/soups.webp"
+              alt="Soups"
+            />
+            <div class="card-body text-center">
+              <a href="" class="ms-btn-recipes btn btn-primary w-100">Soups</a>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-6">
-            <div class="card ms-card mx-5">
-              <img
-                class="card-img-top"
-                src="../assets/img/staff-picks.webp"
-                alt="staff"
-              />
-              <div class="card-body text-center">
-                <a href="" class="ms-btn-recipes btn btn-primary w-100"
-                  >Staff Picks</a
-                >
-              </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div class="card mb-4 ms-card text-center">
+            <img
+              class="card-img-top custom-card-img"
+              src="../assets/img/staff-picks.webp"
+              alt="Staff Picks"
+            />
+            <div class="card-body text-center">
+              <a href="" class="ms-btn-recipes btn btn-primary w-100"
+                >Staff Picks</a
+              >
             </div>
           </div>
         </div>
@@ -513,9 +503,9 @@ a {
   border-radius: 0%;
 }
 
-.ms-img {
-  height: 200px;
-}
+// .ms-img {
+//   height: 200px;
+// }
 
 /* CULINARY COLLECTION */
 .card-img-top {
@@ -591,6 +581,12 @@ a {
   border: none;
   background-color: #ffff;
   color: lightgray;
+}
+
+.custom-card-img {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
 }
 
 /* ------------------------------ HOVER ------------------------------ */
